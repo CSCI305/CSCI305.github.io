@@ -1,6 +1,8 @@
 # CSCI 305: Programming Languages
 ### Spring Semester 2018
 
+---
+
 **Class meeting time:** MWF 8:00--8:50am, Roberts 101
 
 **Instructor:** Isaac Griffith
@@ -12,6 +14,8 @@
 **Office Location:** Barnard Hall Room 355
 
 **Final Exam:** May 2, 2018 from 08:00 to 09:50 in Roberts 101
+
+---
 
 ### Required Textbook
 Modern Programming Languages, A.B. Webber, Franklin Beedle and Associates Inc.
@@ -44,7 +48,31 @@ At the end of this course, the student will be able to:
 Course schedule, lecture slides, and assignments are available through the course website.
 
 ### Grading Policy
-Grades will be based on participation, three homeworks, six programming labs, two midterm exams, and a final exam.
+Grades will be based on participation, six homeworks, four programming labs, a midterm exams, and a final exam. The couse will be broken down as follows:
+
+Event Name | Percentage
+---------- | ----------
+(5) Participation Quizzes | 10% (Equally Weighted)
+(6) Homeworks  | 25% (Equally Weighted)
+(4) Programming Labs | 40% (Equally Weighted)
+Midterm Exam | 10%
+Final Exam | 15%
+
+#### Grading Scale
+The following grading scale will be used on all graded assignments and exams.
+
+* A: 93+
+* A-: 90+
+* B+: 87+
+* B: 83+
+* B-: 80+
+* C+: 77+
+* C: 73+
+* C-: 70+
+* D+: 67+
+* D: 63+
+* D-: 60+
+* F: <60
 
 ### Attendance and Participation
 Class attendance is mandatory and participation is highly encouraged. You are responsible for all the material covered in class. Prepare in advance for class by reading and styding the assigned material, and by making sure you unerstand the previous lecture. Thre will be six in-class Participation Excercises given on random dates throughout the semester. The lowest quiz score will be dropped and the remaining five scores will count towards 10\% of your course grade.
