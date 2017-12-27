@@ -28,9 +28,9 @@ Fri. Jan. 19 | [Grammars](lectures/grammars.html) | &nbsp; | &nbsp;
 
 &nbsp; | &nbsp; | &nbsp; | &nbsp;
 ------ | ------ | ------ | ------
-Mon. Jan. 22 | [Syntax and Semantics](lectures/syntax.html) | &nbsp; | &nbsp;
-Wed. Jan. 24 | [Ruby II](lectures/ruby2.html) | &nbsp; | &nbsp;
-Fri. Jan. 26 | [Lexical and Syntax Analysis](lectures/lexical.html) | &nbsp; | &nbsp;
+Mon. Jan. 22 | [Syntax and Semantics](lectures/syntax.html) | &nbsp; | _
+Wed. Jan. 24 | [Ruby II](lectures/ruby2.html) | &nbsp; | _
+Fri. Jan. 26 | [Lexical and Syntax Analysis](lectures/lexical.html) | &nbsp; | _
 
 #### Week 4
 
