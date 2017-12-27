@@ -60,4 +60,6 @@ Wed. Apr. 25 | [Concurrency](lectures/concurrency.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/finalrev.html) | &nbsp; | &nbsp; 
 **Wed. May 3** | **Final Exam, 8:00 a.m. - 9:50 am** | &nbsp; | **Final Exam (15%)**
 
+---
+
 Last modified: December 27, 2017

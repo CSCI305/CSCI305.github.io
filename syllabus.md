@@ -89,6 +89,6 @@ It is a breach of academic integrity to present the ideas or works of another as
 ### Policy on Cell Phones, Laptops, and Tablets
 Bringing your personal phones, tables or laptops to class is fine. I do require that you set your phones to at least silent, and mute any sounds from either your tablet or laptop. Also refrain from replying or sending texts, social media, or phone calls during class, if you feel that you must do this then please leave the class and take care of it in the hallway. Further, playing games in class will also not be tolerated. The distractions that these actions cause both for your classmates as well as for your instructor are taxing on the limited time we have. If you are found to be performing any of these actions you will be asked to leave the classroom for the day.
 
---
+---
 
 Last modified: December 27, 2017.
