@@ -2,6 +2,8 @@
 
 ## ML Part 3
 
+**Reading:** Webster Ch. 9
+
 ### Outline
 
 * More on Pattern Matching

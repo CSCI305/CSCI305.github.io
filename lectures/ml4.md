@@ -2,6 +2,8 @@
 
 ## ML Part 4
 
+**Reading:** Webster Ch. 11
+
 ### Outline
 
 * Enumerations

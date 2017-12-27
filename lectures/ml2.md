@@ -2,6 +2,8 @@
 
 ## ML Part 2
 
+**Reading:** Webster Ch. 7
+
 ### Outline
 
 * ML Patterns

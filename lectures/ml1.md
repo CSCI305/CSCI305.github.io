@@ -2,6 +2,8 @@
 
 ## ML Part 1
 
+**Reading:** Webster Ch. 5
+
 ### Outline
 
 * Getting Started
