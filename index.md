@@ -7,6 +7,8 @@
 <h1>Course Schedule</h1>
 </div>
 
+---
+
 Date | Lecture Topic | Computing Topic | Graded Event
 ---- | ------------- | --------------- | ------------
 Wednesday, January 10 | [Introduction](lectures/Intro/SimpleData/) | &nbsp; | &nbsp;
