@@ -25,7 +25,7 @@
 
 ## Extra Credit
 
-* For extra credit you may complete the GIT Real courses at http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit
+* For extra credit you may complete the [GIT Real course](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit)
 
 ## Submission:
 
