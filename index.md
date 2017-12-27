@@ -18,9 +18,9 @@ Fri. Jan. 12 | [History](lectures/history.html) | &nbsp; | [Homework 1](homework
 Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 Wed. Jan. 17 | [Ruby I](lectures/ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp; 
 Fri. Jan. 19 | [Grammars](lectures/grammars.html) | &nbsp; | &nbsp;
-Mon. Jan. 22 | [Syntax and Semantics](lectures/syntax.html) | _ | _
-Wed. Jan. 24 | [Ruby II](lectures/ruby2.html) | _ | _
-Fri. Jan. 26 | [Lexical and Syntax Analysis](lectures/lexical.html) | _ | _
+Mon. Jan. 22 | [Syntax and Semantics](lectures/syntax.html) | &nbsp; | &nbsp;
+Wed. Jan. 24 | [Ruby II](lectures/ruby2.html) | &nbsp; | &nbsp;
+Fri. Jan. 26 | [Lexical and Syntax Analysis](lectures/lexical.html) | &nbsp; | &nbsp;
 Mon. Jan. 29 | [Language Systems](lectures/langsys.html) | &nbsp; | &nbsp;
 Wed. Jan. 31 | [Ruby III](lectures/ruby3.html) | &nbsp; | [Homework 2](homeworks/hw2.html)
 Fri. Feb. 2 | &nbsp; | &nbsp; | &nbsp;
