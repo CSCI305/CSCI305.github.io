@@ -45,8 +45,8 @@ Fri. Feb. 2 | &nbsp; | &nbsp; | &nbsp;
 &nbsp; | &nbsp; | &nbsp; | &nbsp;
 ------ | ------ | ------ | ------
 Mon. Feb. 5 | &nbsp; | &nbsp; | &nbsp;
-Wed. Feb. 7 | [ML I](lectures/ml1.html) | &nbsp; | &nbsp;
-Fri. Feb. 9 | [ML I](lectures/ml1.html) | &nbsp; | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/)
+Wed. Feb. 7 | [ML I](lectures/ml1.html) | &nbsp; | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/)
+Fri. Feb. 9 | [ML I](lectures/ml1.html) | &nbsp; | &nbsp;
 
 #### Week 6
 
