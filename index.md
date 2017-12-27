@@ -14,7 +14,7 @@ Date | Lecture Topic | Computing Topic | Graded Event
 Wed. Jan. 10 | [Introduction](lectures/intro.html) | &nbsp; | [Homework 0](homeworks/hw0.html)
 Fri. Jan. 12 | [History](lectures/history.html) | &nbsp; | [Homework 1](homeworks/hw1.html)
 Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
-Wed. Jan. 17 | [Ruby I](lectures/ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp; 
+Wed. Jan. 17 | [Ruby I](lectures/ruby1.html) | &nbsp; | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) 
 Fri. Jan. 19 | [Grammars](lectures/grammars.html) | &nbsp; | &nbsp;
 Mon. Jan. 22 | [Syntax and Semantics](lectures/syntax.html) | &nbsp; | &nbsp;
 Wed. Jan. 24 | [Ruby II](lectures/ruby2.html) | &nbsp; | &nbsp;
