@@ -1,11 +1,7 @@
-<center>
-
 # CSCI 305: Programming Languages
 ### Spring Semester 2018
 
-</center>
 ---
-<center>
 
 |                         |                                                |
 | ----------------------- | ---------------------------------------------- |
@@ -16,7 +12,6 @@
 | **Office Location:**    | Barnard Hall Room 355                          |
 | **Final Exam:**         | May 2, 2018 from 08:00 to 09:50 in Roberts 101 |
 
-</center>
 ---
 
 ### Required Textbook
