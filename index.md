@@ -8,31 +8,31 @@
 Date | Lecture Topic | Computing Topic | Graded Event
 ---- | ------------- | --------------- | ------------
 Wednesday, January 10 | [Introduction](lectures/Intro/SimpleData/) | &nbsp; | &nbsp;
-Friday, January 12 | [History](lectures/Intro/TurtleGraphics/) | x | [Homework 1](homeworks/hw1.html)
+Friday, January 12 | [History](lectures/Intro/TurtleGraphics/) | &nbsp; | [Homework 1](homeworks/hw1.html)
 
 ---
 
-Monday, January 15 | Martin Luther King Day - No Class! |  |  
+Monday, January 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 Wednesday, January 17 | [Ruby I](lectures/ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) |  
-Friday, January 19 | [Grammars](lectures/grammars.html) |  |   
+Friday, January 19 | [Grammars](lectures/grammars.html) | &nbsp; | &nbsp;
 
 ---
 
-Monday, January 22 | [Syntax and Semantics]() |  |  
-Wednesday, January 24 | [Ruby II]() |  |  
-Friday, January 26 | [Lexical and Syntax Analysis]() |  |  
+Monday, January 22 | [Syntax and Semantics]() | &nbsp; | &nbsp;
+Wednesday, January 24 | [Ruby II]() | &nbsp; | &nbsp;
+Friday, January 26 | [Lexical and Syntax Analysis]() | &nbsp; | &nbsp;
 
 ---
 
-Monday, January 29 | [Language Systems]() |  |  
-Wednesday, January 31 | Ruby III |  |  
-Friday, February 2 |  |  |  
+Monday, January 29 | [Language Systems]() | &nbsp; | &nbsp;
+Wednesday, January 31 | Ruby III | &nbsp; | &nbsp;
+Friday, February 2 | &nbsp; | &nbsp; | &nbsp;
 
 ---
 
-Monday, February 5 |  |  |  
-Wednesday, February 7 | ML I |  |  
-Friday, February 9 | ML I |  |  
+Monday, February 5 | &nbsp; | &nbsp; | &nbsp;
+Wednesday, February 7 | ML I | &nbsp; | &nbsp;
+Friday, February 9 | ML I | &nbsp; | &nbsp;
 
 ---
 
