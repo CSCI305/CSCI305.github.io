@@ -4,6 +4,8 @@
 
 **Reading:** Webster Ch. 7
 
+[Lecture Slides](lectures/Lecture14.pdf)
+
 ### Outline
 
 * ML Patterns
@@ -13,3 +15,5 @@
 * Pattern Matching Style
 * Local Varialbe Definitions
 * Nested Function Defs
+
+### Example Code

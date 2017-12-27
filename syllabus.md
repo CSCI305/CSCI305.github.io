@@ -1,20 +1,22 @@
+<center>
+
 # CSCI 305: Programming Languages
 ### Spring Semester 2018
 
+</center>
 ---
+<center>
 
-**Class meeting time:** MWF 8:00--8:50am, Roberts 101
+|                         |                                                |
+| ----------------------- | ---------------------------------------------- |
+| **Class meeting time:** | MWF 8:00--8:50am, Roberts 101                  |
+| **Instructor:**         | Isaac Griffith                                 |
+| **Contact:**            | isaac.griffith@msu.montana.edu                 |
+| **Office Hours:**       | MWF, 0900--1000, EPS 254                       |
+| **Office Location:**    | Barnard Hall Room 355                          |
+| **Final Exam:**         | May 2, 2018 from 08:00 to 09:50 in Roberts 101 |
 
-**Instructor:** Isaac Griffith
-
-**Contact:** isaac.griffith@msu.montana.edu
-
-**Office Hours:** MWF, 0900--1000, EPS 254
-
-**Office Location:** Barnard Hall Room 355
-
-**Final Exam:** May 2, 2018 from 08:00 to 09:50 in Roberts 101
-
+</center>
 ---
 
 ### Required Textbook
@@ -29,8 +31,8 @@ Concepts of Programming Languages (11th Edition), R.W. Sebasta, Pearson
 * CSCI 246 Discrete Mathematics
 
 ### Course Description
-This course is an examination of the constructs of programming languages, the four major programming paradigms, and several programming languages, including their application and underlying execution models. The paradigms examined in this course include object-oriented, functional, and logical. 
-Students will gain exposure to and experience in a variety of languages, including ML, Prolog, and Java. Several other languages will be briefly explored through a series of short lectures. 
+This course is an examination of the constructs of programming languages, the four major programming paradigms, and several programming languages, including their application and underlying execution models. The paradigms examined in this course include object-oriented, functional, and logical.
+Students will gain exposure to and experience in a variety of languages, including ML, Prolog, and Java. Several other languages will be briefly explored through a series of short lectures.
 
 ### Course Objectives
 At the end of this course, the student will be able to:
@@ -78,7 +80,7 @@ The following grading scale will be used on all graded assignments and exams.
 Class attendance is mandatory and participation is highly encouraged. You are responsible for all the material covered in class. Prepare in advance for class by reading and styding the assigned material, and by making sure you unerstand the previous lecture. Thre will be six in-class Participation Excercises given on random dates throughout the semester. The lowest quiz score will be dropped and the remaining five scores will count towards 10\% of your course grade.
 
 ### Students with Disabilities
-A student who desires accommodation for a disability must submit appropriate documentation of the disability and request for accommodations to The Office 
+A student who desires accommodation for a disability must submit appropriate documentation of the disability and request for accommodations to The Office
 of Disability, Re-Entry, and Veteran's Services Room 155 Strand Union Building, (406) 994-2824.
 
 ### Academic Integrity

@@ -4,6 +4,8 @@
 
 **Reading:** Webster Ch. 5
 
+[Lecture Slides](slides/Lecture12.pdf)
+
 ### Outline
 
 * Getting Started
@@ -16,3 +18,6 @@
 * Tuples and Lists
 * Function Definitions
 * ML Types and Type Annotations
+
+### Example Code
+
