@@ -1,9 +1,11 @@
+<div align="center">
 # CSCI 305: Programming Languages
 ### Spring Semester 2018
 
 ### [Syllabus](syllabus.html)
 
-#Course Schedule
+# Course Schedule
+</div>
 
 Date | Lecture Topic | Computing Topic | Graded Event
 ---- | ------------- | --------------- | ------------
