@@ -2,7 +2,9 @@
 
 ## ML Part 4
 
-**Reading:** Webster Ch. 11
+**Reading:** Webster Ch. 11, Sebasta Ch.
+
+[Lecture Slides](slides/Lecture.pdf)
 
 ### Outline
 

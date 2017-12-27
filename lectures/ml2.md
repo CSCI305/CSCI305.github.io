@@ -2,7 +2,7 @@
 
 ## ML Part 2
 
-**Reading:** Webster Ch. 7
+**Reading:** Webster Ch. 7, Sebasta Ch.
 
 [Lecture Slides](lectures/Lecture14.pdf)
 

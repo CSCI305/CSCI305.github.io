@@ -2,6 +2,10 @@
 
 ## Ruby Part 1
 
-**Reading:** Ruby Tutorial 
+**Reading:** Ruby Tutorial, Sebasta Ch.
+
+[Lecture Slides](slides/Lecture.pdf)
 
 ### Outline:
+
+### Example Code:

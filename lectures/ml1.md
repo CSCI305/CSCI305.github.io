@@ -2,7 +2,7 @@
 
 ## ML Part 1
 
-**Reading:** Webster Ch. 5
+**Reading:** Webster Ch. 5, Sebasta Ch.
 
 [Lecture Slides](slides/Lecture12.pdf)
 
@@ -20,4 +20,3 @@
 * ML Types and Type Annotations
 
 ### Example Code
-
