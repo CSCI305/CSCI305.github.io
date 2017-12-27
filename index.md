@@ -33,7 +33,7 @@ Wed. Feb. 21 | [ML III](lectures/ml3.html) | &nbsp; | &nbsp;
 Fri. Feb. 23 | [Scope](lectures/scope.html) | &nbsp; | &nbsp; 
 Mon. Feb. 26 | [Memory Location I](lectures/memoryloc.html) | &nbsp; | &nbsp; 
 Wed. Feb. 28 | [Midterm Review](lectures/midtermrev.html) | &nbsp; | &nbsp; 
-Fri. Mar. 2 | Midterm Exam | &nbsp; | Midterm Exam (10%)
+**Fri. Mar. 2** | **Midterm Exam** | &nbsp; | **Midterm Exam (10%)**
 Mon. Mar. 5 | [Memory Locations II](lectures/memoryloc2.html) | &nbsp; | &nbsp; 
 Wed. Mar. 7 | [ML IV](lectures/ml4.html) | &nbsp; | &nbsp; 
 Fri. Mar. 9 | [Memory Management](lectures/memmgmt.html) | &nbsp; | &nbsp; 
@@ -58,6 +58,6 @@ Fri. Apr. 20 | [Prolog III](lectures/prolog3.html) | &nbsp; | &nbsp;
 Mon. Apr. 23 | [Concurrency](lectures/concurrency.html) | &nbsp; | &nbsp; 
 Wed. Apr. 25 | [Concurrency](lectures/concurrency.html) | &nbsp; | &nbsp; 
 Fri. Apr. 27 | [Final Review](lectures/finalrev.html) | &nbsp; | &nbsp; 
-Wed. May 3 | Final Exam, 8:00 a.m. - 9:50 am | &nbsp; | Final Exam (15%)
+**Wed. May 3** | **Final Exam, 8:00 a.m. - 9:50 am** | &nbsp; | **Final Exam (15%)**
 
 Last modified: December 27, 2017
