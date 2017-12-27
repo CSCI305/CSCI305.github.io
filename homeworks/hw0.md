@@ -23,8 +23,13 @@
 6. Go to the [ruby lab site](https://github.com/CSCI305/csci305-ruby-lab/), which is the first course lab, and Fork the repository.
   - Use the following [tutorial](https://help.github.com/articles/fork-a-repo/)
 
+## Extra Credit
+
+* For extra credit you may complete the GIT Real courses at http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit
+
 ## Submission:
 
 You will need to submit the following two items to the BrightSpace dropbox for homework 0:
 1. The link to your personal github page (5 pts)
 2. The image of the screenshot (5 pts)
+3. Extra Credit: 1 point (up to 7 pts) per badge earned from the GIT Real Tutorial
