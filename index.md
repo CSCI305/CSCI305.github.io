@@ -1,10 +1,10 @@
 <div align="center">
-# CSCI 305: Programming Languages
-### Spring Semester 2018
+<h1>CSCI 305: Programming Languages</h1>
+<h3>Spring Semester 2018</h3>
 
-### [Syllabus](syllabus.html)
+<h3><a href="syllabus.html">Syllabus</a></h3>
 
-# Course Schedule
+<h1>Course Schedule</h1>
 </div>
 
 Date | Lecture Topic | Computing Topic | Graded Event
