@@ -9,7 +9,7 @@
 
 ---
 
-Date | Lecture Topic | Assignment Assigned | Assignment Due
+Date | Lecture Topic | Assignment | Assignment Due
 ---- | ------------- | --------------- | ------------
 Wed. Jan. 10 | [Introduction](lectures/intro.html) | [Homework 0](homeworks/hw0.html) | &nbsp;
 Fri. Jan. 12 | [History](lectures/history.html) | [Homework 1](homeworks/hw1.html) | &nbsp;
