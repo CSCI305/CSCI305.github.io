@@ -2,7 +2,7 @@
 
 ## Homework 3
 
-### Due Date: March 21, 2018 at Midnight
+### Due Date: March 9, 2018 at Midnight
 
 ---
 

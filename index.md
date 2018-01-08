@@ -52,12 +52,12 @@ Fri. Apr. 6 | [Parameters I](lectures/l31_params1.html) | &nbsp; | [Java Lab](ht
 Mon. Apr. 9 | [Parameters II](lectures/l32_params2.html) | &nbsp; | &nbsp;
 Wed. Apr. 11 | [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/) | &nbsp;
 Fri. Apr. 13 | [Prolog II](lectures/l34_36_prolog2.html) | &nbsp; | &nbsp;
-Mon. Apr. 16 | [Cost Models](lectures/l35_cost.html) | &nbsp; | [Homework 5](homeworks/hw5.html)
+Mon. Apr. 16 | [Cost Models](lectures/l35_cost.html) | [Homework 6](homeworks/hw6.html) | [Homework 5](homeworks/hw5.html)
 Wed. Apr. 18 | [Prolog II](lectures/l34_36_prolog2.html) | &nbsp; | &nbsp;
 Fri. Apr. 20 | [Prolog III](lectures/l37_prolog3.html) | &nbsp; | &nbsp;
 Mon. Apr. 23 | [Concurrency](lectures/l38_39_concurrency.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | [Concurrency](lectures/l38_39_concurrency.html) | &nbsp; | &nbsp;
-Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/)
+Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/), [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
 Tue. May. 2 | Finals Week - No Class! | &nbsp; | &nbsp;
 **Wed. May 3** | **Final Exam, 8:00 a.m. - 9:50 am** | &nbsp; | **Final Exam (15%)**

@@ -2,7 +2,7 @@
 
 ## Homework 1
 
-### Due Date: January 31, 2018 at Midnight
+### Due Date: February 9, 2018 at Midnight
 
 ---
 

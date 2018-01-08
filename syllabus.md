@@ -68,13 +68,13 @@ This course will be taught using the following methods:
   - 10 minutes in which to evaluate solutions to the exercise and to summarize the topic.
 
 ### Grading Policy
-Grades will be based on participation, six homeworks, four programming labs, a midterm exams, and a final exam. The couse will be broken down as follows:
+Grades will be based on participation, seven homeworks, four programming labs, a midterm exams, and a final exam. The couse will be broken down as follows:
 
 Event Name | Percentage
 ---------- | ----------
-(5) Participation Quizzes | 10% (Equally Weighted)
-(6) Homeworks | 25% (Equally Weighted)
-(4) Programming Labs | 40% (Equally Weighted)
+(5) Participation Events | 10% (Equally Weighted)
+(6) Homeworks | 30% (Equally Weighted)
+(4) Programming Labs | 35% (Equally Weighted)
 Midterm Exam | 10%
 Final Exam | 15%
 

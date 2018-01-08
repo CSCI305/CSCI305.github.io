@@ -2,7 +2,7 @@
 
 ## Homework 4
 
-### Due Date: April 11, 2018 at Midnight
+### Due Date: April 2, 2018 at Midnight
 
 ---
 

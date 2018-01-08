@@ -1,8 +1,8 @@
 # CSCI 305 Programming Languages
 
-## Homework 0: Learning Git
+## Extra Credit Homework 0: Learning Git
 
-### Due Date: January 17, 2018
+### Due Date: January 26, 2018
 
 ## Instructions:
 
@@ -21,15 +21,21 @@
 4. Complete the following git [tutorial](https://try.github.io/levels/1/challenges/1)
 5. On the finish page, which tells you about your badge, take a screenshot and save it as a PNG image file, which you will submit on BrightSpace.
 6. Go to the [ruby lab site](https://github.com/CSCI305/csci305-ruby-lab/), which is the first course lab, and Fork the repository.
-   * Use the following [tutorial](https://help.github.com/articles/fork-a-repo/)
+   * Use the following [tutorial](https://help.github.com/articles/fork-a-repo/) if you are unfamiliar with forking a repository.
+7. Follow the appropriate link under the section **Ruby** of the ruby lab readme and install Ruby on your system. Then follow the instructions in the section labeled **Step 0** to install `bundler`.
+   * Open a console on your system and run the following commands:
+   ```
+   ruby --Version
 
-## Extra Credit
-
-* For extra credit you may complete the [GIT Real course](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit)
+   bundler -v
+   ```
+   * Take a screen shot of only the console window showing the results of that, it should look something like this:
+   ![Image of terminal](hw0_images/terminal.png)
 
 ## Submission:
 
-You will need to submit the following two items to the BrightSpace dropbox for homework 0:
-1. The link to your personal github page (5 pts)
-2. The image of the screenshot (5 pts)
-3. Extra Credit: 1 point per badge earned (up to 7 points) from the GIT Real Tutorial.
+You will need to submit a zip file named [first_name].[last_name]_hw0.zip (where [first_name] should be replaced by your first name and [last_name] should be replaced by your last name) containing the following two files:
+1. The image of the screenshot (5 pts)
+2. Screenshot showing that you have installed Ruby and associated tools (2 pts)
+
+In the comment section of the submission, place the link to your github page (3 pts).
