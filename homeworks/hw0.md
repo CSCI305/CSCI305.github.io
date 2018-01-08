@@ -24,11 +24,13 @@
    * Use the following [tutorial](https://help.github.com/articles/fork-a-repo/) if you are unfamiliar with forking a repository.
 7. Follow the appropriate link under the section **Ruby** of the ruby lab readme and install Ruby on your system. Then follow the instructions in the section labeled **Step 0** to install `bundler`.
    * Open a console on your system and run the following commands:
+
    ```
    ruby --Version
 
    bundler -v
    ```
+
    * Take a screen shot of only the console window showing the results of that, it should look something like this:
    ![Image of terminal](hw0_images/terminal.png)
 
