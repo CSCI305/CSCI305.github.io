@@ -2,17 +2,17 @@
 
 ## Homework 1
 
-### Due Date: February 9, 2018 at Midnight
+### Due Date: February 9, 2018 at the beginning of class.
 
 ---
 
-## Instuctuctions
+## Instructions
 
 #### This is an online quiz available on BrightSpace.
 
 1. Login to [BrightSpace](http://ecat.montana.edu)
 2. Select the CSCI 305 Course Link
-3. Select the **Quizzes** item from the menu
-4. Click on the **Homework 1** Quiz to begin.
-5. You have only a single attempt at the quiz, but you have from *January 12* until *January 31* to complete the quiz.
-6. Be sure to submit the quiz prior to the due date.
+3. Select the **Content** item from the menu
+4. Select **Week 3**
+4. Click on the **hw1** link to open the PDF.
+5. Answer the questions and turn in at the beginning of class on Friday Feb. 9.

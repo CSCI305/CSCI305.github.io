@@ -2,11 +2,11 @@
 
 ## Homework 2
 
-### Due Date: February 23, 2018 at Midnight
+### Due Date: February 23, 2018 at the beginning of class
 
 ---
 
-## Instuctuctions
+## Instructions
 
 #### This is an online quiz available on BrightSpace.
 

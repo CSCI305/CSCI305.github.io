@@ -2,11 +2,11 @@
 
 ## Homework 5
 
-### Due Date: April 16, 2018 at Midnight
+### Due Date: April 16, 2018 at the beginning of class
 
 ---
 
-## Instuctuctions
+## Instructions
 
 #### This is an online quiz available on BrightSpace.
 
