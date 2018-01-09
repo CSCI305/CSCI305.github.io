@@ -4,21 +4,18 @@
 
 **Reading:** Webber ch. 24, Sebesta ch. 2
 
+[Video](https://youtu.be/fcTpXS-nons)
+
 ### Outline:
 
 * Zuse's Plankakul
-* Minimal Hardware Programming Pseudocodes
 * The IBM 704 and Fortran
 * Functional Programming: Lisp
 * ALGOL 60
-* COBOL
-* Basic
-* PL/I
-* APL and SNOBOL
+* APL
 * SIMULA 67
 * ALGOL 68
 * Prolog
-* Ada
 * Smalltalk
 * C++
 * ML

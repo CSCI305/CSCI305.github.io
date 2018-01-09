@@ -4,8 +4,6 @@
 
 **Reading:** Webster Ch. 2
 
-[Lecture Slides](slides/Lecture.pdf)
-
 ### Group Exercises:
 #### Exercise 1:
 Construct a BNF grammar for each of the following languages. As an example: a correct answer for "the set of all strings consisting of zero or more concatenated copies of the string `ab`" would be the following grammar:

@@ -2,7 +2,9 @@
 
 ## Introduction
 
-**Reading:** Webster Ch. 1, Sebesta Ch. 1
+**Reading:** Webster Ch. 1
+
+[Video](https://youtu.be/SFwcSsM9RUU)
 
 ### Outline
 
