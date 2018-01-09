@@ -46,8 +46,8 @@ This is a computer science course focusing on the underlying concepts and ideas 
 ### Instruction
 This course will be taught using the following methods:
 *   Traditional Lectures
-*   Flipped Classroom and Active Learning
-*   Exercise Driven Learning
+*   Active Group Based Learning
+*   Problem-based Learning
 
 ### Instructor Expectations of Students
 *   Students will actively participate in classroom activities.
@@ -68,15 +68,15 @@ This course will be taught using the following methods:
      -  10 minutes in which to evaluate solutions to the exercise and to summarize the topic.
 
 ### Grading Policy
-Grades will be based on participation, seven homeworks, four programming labs, a midterm exams, and a final exam. The course will be broken down as follows:
+Grades will be based on participation, seven homeworks, four programming labs, a midterm exam, and a final exam. Note that exams are worth 50% of your grade, you must average 50% on the exams in order to pass the course, failure to meet this requirement will result in a failure the course. The course will be broken down as follows:
 
 Event Name | Percentage
 ---------- | ----------
-(5) Participation Events | 10% (Equally Weighted)
-(6) Homeworks | 30% (Equally Weighted)
-(4) Programming Labs | 35% (Equally Weighted)
-Midterm Exam | 10%
-Final Exam | 15%
+(10) Participation Events | 10% (Equally Weighted)
+(6) Homeworks | 20% (Equally Weighted)
+(4) Programming Labs | 20% (Equally Weighted)
+Midterm Exam | 25%
+Final Exam | 25%
 
 #### Grading Scale
 The following grading scale will be used on all graded assignments and exams.
@@ -95,7 +95,7 @@ The following grading scale will be used on all graded assignments and exams.
 *   F: < 60
 
 ### Attendance and Participation
-Class attendance is mandatory and participation is highly encouraged. You are responsible for all the material covered in class. Prepare in advance for class by reading and studying the assigned material, and by making sure you understand the previous lecture. There will be five in-class Participation Exercises given on random dates throughout the semester and will count towards 10\% of your course grade.
+Class attendance is mandatory and participation is highly encouraged. This course is a flipped course and therefore requires active participation by all students. Thus, before each class you will need to prepare by watching the associated lecture, preparing questions, reading the assigned material, and ensuring you are prepared for the activities in the classroom. Each class day will use a combination of active-learning, group activities, problem-based learning, and/or small quizzes. Furthermore, there will be 10 random participation events, which will be graded using a pass/fail model. These participation events, as a whole, will contribute 10% of your overall grade in the class.
 
 ### Students with Disabilities
 A student who desires accommodation for a disability must submit appropriate documentation of the disability and request for accommodations to The Office
