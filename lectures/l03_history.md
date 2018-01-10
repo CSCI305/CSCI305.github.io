@@ -5,6 +5,7 @@
 **Reading:** Webber ch. 24, Sebesta ch. 2
 
 [Video](https://youtu.be/fcTpXS-nons)
+[Video](https://youtu.be/WOZwDhFbwjk)
 
 ### Outline:
 
