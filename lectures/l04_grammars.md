@@ -6,7 +6,7 @@
 
 **Reading:** Webster Ch. 2
 
-[Watch this Video]()
+[Watch this Video](https://youtu.be/hETZpdJcn7M)
 
 ## In Class
 ### Group Exercises:
