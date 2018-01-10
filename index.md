@@ -15,8 +15,8 @@ Wed. Jan. 10 | Course Introduction | &nbsp; | &nbsp;
 [Fri. Jan. 12](https://youtu.be/SFwcSsM9RUU) | [Introduction](lectures/l02_intro.html) | [Homework 0](homeworks/hw0.html) | &nbsp;
 Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Wed. Jan. 17](https://youtu.be/fcTpXS-nons) | [History](lectures/l03_history.html) | &nbsp; | &nbsp;
-Fri. Jan. 19 | [Grammars](lectures/l04_grammars.html) | &nbsp; | &nbsp;
-Mon. Jan. 22 | [Ruby I](lectures/l05_ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp;
+[Fri. Jan. 19](https://youtu.be/hETZpdJcn7M) | [Grammars](lectures/l04_grammars.html) | &nbsp; | &nbsp;
+[Mon. Jan. 22](https://youtu.be/wSsItJuNd-U) | [Ruby I](lectures/l05_ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp;
 Wed. Jan. 24 | [Regular Expressions](lectures/l06_ruby_regex.html) | &nbsp; | &nbsp;
 Fri. Jan. 26 | [Syntax and Semantics](lectures/l07_08_syntax.html) | [Homework 1](homeworks/hw1.html) | [Homework 0](homeworks/hw0.html)
 Mon. Jan. 29 | [Syntax and Semantics](lectures/l07_08_syntax.html) | &nbsp; | &nbsp;
