@@ -100,11 +100,6 @@ The following grading scale will be used on all graded assignments and exams.
 *   D-: 60+
 *   F: < 60
 
-### Minimal Programming/Coding Standards
-For each of the programming labs, and to a lesser extent the exams and homeworks, I have the following policies:
-*   I will not tolerate any derogatory or inflammatory messages directed at another student, professor, teaching assistant, or myself.
-*   I will not tolerate any curse words, sexually explicit content, racist content, sexist content, or hateful content within the comments, variable names or any other part of either the programs you write, the homeworks you turn in or on the exams.
-
 ### Attendance and Participation
 Class attendance is expected and participation is encouraged, such that the effectiveness of the flipped classroom can be maximized. Thus the following policies will be in effect for this course:
 *   Attendance is not mandatory, but is expected. If you are expecting not be able to make it to class, please notify me by email prior to the absence. Absences on Participation Event days which are not preceded by prior notification or which do not meet the requirements for a University accepted excuse will be noted as non-participation.
