@@ -33,7 +33,7 @@ Wed. Feb. 21 | [Polymorphism](lectures/l15_polymorphism.html) | &nbsp; | &nbsp;
 Fri. Feb. 23 | ![laptop](images/laptop.png) [ML III](lectures/l18_ml3.html) | [Homework 3](homeworks/hw3.html) | [Homework 2](homeworks/hw2.html)
 Mon. Feb. 26 | [Scope](lectures/l20_21_scope.html) | &nbsp; | &nbsp;
 Wed. Mar. 28 | [Midterm Review](lectures/l19_midtermrev.html) | &nbsp; |
-**Fri. Mar. 2** | **Midterm Exam** | &nbsp; | **Midterm Exam (10%)**
+**Fri. Mar. 2** | **Midterm Exam** | &nbsp; | **Midterm Exam (25%)**
 Mon. Feb. 5 | [Scope](lectures/l20_21_scope.html) | &nbsp; | &nbsp;
 Wed. Mar. 7 | ![laptop](images/laptop.png) [ML IV](lectures/l22_ml4.html) | &nbsp; | &nbsp;
 Fri. Mar. 9 | [Memory Locations](lectures/l23_memoryloc.html) | &nbsp; | [Homework 3](homeworks/hw3.html), [ML Lab](https://github.com/CSCI305/csci305-ml-lab/)
@@ -59,7 +59,7 @@ Mon. Apr. 23 | [Concurrency](lectures/l38_39_concurrency.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | [Concurrency](lectures/l38_39_concurrency.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
-**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/), **Final Exam (15%)**
+**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/), **Final Exam (25%)**
 
 ---
 

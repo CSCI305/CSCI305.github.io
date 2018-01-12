@@ -9,7 +9,7 @@
 | **Instructor:**         | Isaac Griffith                                 |
 | **Contact:**            | isaac.griffith@msu.montana.edu                 |
 | **Office Hours:**       | TR, 0900--1030                                 |
-| **Office Location:**    | Barnard Hall Room 355                          |
+| **Office Location:**    | Barnard Hall Room 345                          |
 | **Final Exam:**         | May 2, 2018 from 08:00 to 09:50 in Roberts 101 |
 
 ---
