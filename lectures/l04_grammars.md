@@ -31,12 +31,3 @@ Construct an EBNF grammar for each of the above languages. Use EBNF extensions w
 
 #### Exercise 3:
 Construct a syntax diagram for language `d.` above. Use branching and loops in your syntax diagram to make it as clear as possible.
-
-#### Exercise 4:
-Consider the following simple grammar for expressions:
-
-```
-<exp> ::= <exp> + <exp> | <exp> * <exp> | ( <exp> ) | a | b | c
-```
-
-Now suppose that the lexical structure of the language allows any number of spaces to occur anywhere in the expression. Give a BNF grammar that defines this explicitly, at the character level, using one grammar to capture both the phrase structure and the lexical structure. For example, your grammar should generate both `(a+b)` and `( a + b )`. Use a single-quoted space, `' '`, to indicate the space character in your grammar.
