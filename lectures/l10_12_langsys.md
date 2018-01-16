@@ -4,7 +4,9 @@
 
 **Reading:** Webster Ch. 4
 
-[Lecture Slides](slides/Lecture.pdf)
+[Watch This Video]()
+
+[Lecture Slides](slides/Lecture10_12.pdf)
 
 ### Group Exercises
 

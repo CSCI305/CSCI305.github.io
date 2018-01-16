@@ -4,7 +4,9 @@
 
 **Reading:** Webster Ch. 1
 
-[Video](https://youtu.be/SFwcSsM9RUU)
+[Watch This Video](https://youtu.be/SFwcSsM9RUU) - (49:45)
+
+[Lecture Slides](slides/Lecture02.pdf)
 
 ### Outline
 

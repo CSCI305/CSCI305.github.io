@@ -6,7 +6,9 @@
 
 **Reading:** Webster Ch. 2
 
-[Watch this Video](https://youtu.be/hETZpdJcn7M)
+[Watch this Video](https://youtu.be/hETZpdJcn7M) - (42:27)
+
+[Lecture Slides](slides/Lecture04.pdf)
 
 ## In Class
 ### Group Exercises:

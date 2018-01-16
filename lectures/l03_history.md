@@ -4,8 +4,13 @@
 
 **Reading:** Webber ch. 24, Sebesta ch. 2
 
-[Video](https://youtu.be/fcTpXS-nons)
-[Video](https://youtu.be/WOZwDhFbwjk)
+[Watch This Video](https://youtu.be/fcTpXS-nons) - (1:02:39)
+
+[Watch This Video](https://youtu.be/WOZwDhFbwjk) - (3:48)
+
+[Lecture Slides](slides/Lecture03.pdf)
+
+[Lecture Slides: Ruby Slides](slides/Lecture03_ruby-history.pdf)
 
 ### Outline:
 

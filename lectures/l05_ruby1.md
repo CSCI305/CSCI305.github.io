@@ -11,7 +11,7 @@
 
 ### Outside of Class
 
-[Watch this Video](https://youtu.be/wSsItJuNd-U)
+[Watch this Video](https://youtu.be/sVDYxiO0fU4) - (1:35:29)
 
 Explore Ruby:
 - Find the following things:
@@ -28,14 +28,30 @@ Explore Ruby:
   - Run a Ruby program from a file
 
 ### Outline:
-* [Hello World](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example1.rb)
-* [Variables and Expressions](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example2.rb)
-* [Operators](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example3.rb)
-* [Strings](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example4.rb)
-* [String Operators](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example5.rb)
-* [Lists](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example6.rb)
-* [Hashes](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example7.rb)
-* [Line Breaking in Code](https://raw.githubusercontent.com/CSCI305/csci305-ruby-examples/blob/master/basic/example8.rb)
+* Interactive ruby
+  - [Hello World!](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/01irb.rb)
+  - [Basic Expressions](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/02irb_expr.rb)
+  - [Decisions](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/03irb_decisions.rb)
+  - [Global Variables](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/04irb_global.rb)
+  - [What is Truth?](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/05irb_truth.rb)
+* Ruby Scripts
+  - [Multiline Strings](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/04strings.rb)
+  - [Basic String Ops](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/05strings.rb)
+  - [Chomping Strings](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/06strings.rb)
+  - [Working with Strings](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/07strings.rb)
+  - [Numbers and Iteration](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/08numbers.rb)
+  - [Arrays](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/09arrays.rb)
+  - [Hashes](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/10hashes.rb)
+  - [Control Structures](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/11control.rb)
+  - [Methods](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/12methods.rb)
+  - [Methods](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/13methods.rb)
+  - [Methods](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/14methods.rb)
+  - [Blocks](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/15blocks.rb)
+  - [Gets](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/16gets.rb)
+  - [Gets](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/17gets.rb)
+  - [Ranges](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/18ranges.rb)
+  - [Illusions of Regex](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/19regex.rb)
+  - [songdata.txt](https://raw.github.com/CSCI305/csci305-ruby-examples/ruby1/)
 
 ### In class exercise:
 Write a ruby program which prompts for and reads one line of input. It then echos the line, then prints it repeatedly, each time removing every second character. It continues until no more characters can be removed. Treat all characters alike; no special treatment for spaces or punctuation

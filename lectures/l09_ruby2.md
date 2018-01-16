@@ -4,6 +4,8 @@
 
 **Reading:** Ruby Tutorial Sections 6, 8, 9, 19
 
+[Watch This Video]()
+
 **Installing Ruby:** You can install ruby using instructions found at the following sites:
 * [Windows](https://rubyinstaller.org/)
 * [Mac](https://www.ruby-lang.org/en/documentation/installation/#homebrew)

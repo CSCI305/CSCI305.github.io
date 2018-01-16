@@ -1,10 +1,12 @@
 # CSCI 305: Programming Languages
 
-### Memory Location Part 1
+### Memory Locations for Variables
 
-**Reading:** Webster Ch., Sebasta Ch.
+**Reading:** Webster Ch. 12
 
-[Lecture Slides](slides/Lecture.pdf)
+[Watch This Video]()
+
+[Lecture Slides](slides/Lecture23.pdf)
 
 ### Outline
 

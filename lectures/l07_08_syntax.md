@@ -4,6 +4,12 @@
 
 **Reading:** Webster Ch. 3
 
+[Watch This Video](https://youtu.be/K_uCkUBnBv0) - (26:15)
+
+[Watch This Video](https://youtu.be/V40CWH9QLTo) - (10:44)
+
+[Lecture Slides](slides/Lecture07_08.pdf)
+
 ### Group Exercises:
 
 #### Exercise 1:
