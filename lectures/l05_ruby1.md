@@ -13,6 +13,16 @@
 
 [Watch this Video](https://youtu.be/sVDYxiO0fU4) - (1:35:29)
 
+OR
+
+Watch these videos (the above video broken into 6 parts for easier consumption):
+* [Part 1](https://youtu.be/lUXaShxuywA) (15:46)
+* [Part 2](https://youtu.be/H7Hg9mefp2s) (15:18)
+* [Part 3](https://youtu.be/8eY5gEs1jiY) (15:46)
+* [Part 4](https://youtu.be/6YGsn3YpcIY) (16:56)
+* [Part 5](https://youtu.be/J-YWf9WojF4) (13:26)
+* [Part 6](https://youtu.be/R0myl-4fKfU) (18:23)
+
 Explore Ruby:
 - Find the following things:
   - The Ruby API

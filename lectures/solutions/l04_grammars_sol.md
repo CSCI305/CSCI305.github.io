@@ -1,3 +1,4 @@
+
 # CSCI 305: Programming Languages
 
 ## Program Syntax
