@@ -12,7 +12,7 @@
 
 [Verification](verify/lecture04.html)
 
-[Video Detailing My Solutions](https://youtu.be/MjeYTF0rlkw)
+[Video Detailing My Solutions](https://youtu.be/MjeYTF0rlkw) - (14:46)
 
 ## In Class
 ### Group Exercises:
