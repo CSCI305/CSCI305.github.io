@@ -10,6 +10,8 @@
 
 [Lecture Slides](slides/Lecture04.pdf)
 
+[Verification](verify/lecture04.html)
+
 ## In Class
 ### Group Exercises:
 #### Exercise 1:
