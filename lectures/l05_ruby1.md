@@ -63,16 +63,19 @@ Explore Ruby:
   - [Illusions of Regex](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby1/19regex.rb)
   - [songdata.txt](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby1/)
 
-### In class exercise:
+### In class exercises:
+
+#### Excercise 1:
 Write a ruby program which prompts for and reads one line of input. It then echos the line, then prints it repeatedly, each time removing every second character. It continues until no more characters can be removed. Treat all characters alike; no special treatment for spaces or punctuation
 
 ```
+isaac@sparqline001 $ ruby reduce.rb
 Please enter a line> Sandy.
 Sandy.
 Sny
 Sy
 S
-tom@laptop:~/courses/ruby/asst$ ruby reduce.rb
+isaac@sparqline001 $ ruby reduce.rb
 Please enter a line> On Tuesday, Frank in the motor pool buys lunch.
 On Tuesday, Frank in the motor pool buys lunch.
 O usa,Faki h oo olby uc.
@@ -81,7 +84,7 @@ Oak o
 Oko
 Oo
 O
-tom@laptop:~/courses/ruby/asst$ ruby reduce.rb
+isaac@sparqline001 $ ruby reduce.rb
 Please enter a line> Those so aglow point at hues afferent
 Those so aglow point at hues afferent
 Toes go on the feet
@@ -90,4 +93,29 @@ T ohe
 Toe
 Te
 T
+```
+
+#### Exercise 2:
+Write a quick ruby script to determine if a word is a palindrome. This script
+should prompt the user for a single line of input and then echo the input, its reverse, and then whether or not it is a palindrome (regardless of case).
+
+```
+isaac@sparqline001 $ ruby palindrome.rb
+Please enter a word> Bob
+Bob
+boB
+Bob is a palindrome
+```
+
+#### Modification
+Modify Exercise 2 such that if given a string with multiple words that forms a single palindrome when spaces are removed, you can detect that as well. Echo out the space reduced form of the line, its revers, and whether or not it is a palindrome.
+
+```
+isaac@sparqline001 $ ruby palindrome2.rb
+Please enter a line> Was it a car or a cat i saw
+Was it a car or a cat i saw
+was i tac a ro rac a ti saW
+Wasitacaroracatisaw
+wasitacaroracatisaW
+The line is a palindrome
 ```
