@@ -108,7 +108,7 @@ Bob is a palindrome
 ```
 
 #### Modification
-Modify Exercise 2 such that if given a string with multiple words that forms a single palindrome when spaces are removed, you can detect that as well. Echo out the space reduced form of the line, its revers, and whether or not it is a palindrome.
+Modify Exercise 2 such that if given a string with multiple words that forms a single palindrome when spaces are removed, you can detect that as well. Echo out the space reduced form of the line, its reverse, and whether or not it is a palindrome.
 
 ```
 isaac@sparqline001 $ ruby palindrome2.rb
