@@ -63,9 +63,9 @@ Explore Ruby:
   - [Illusions of Regex](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby1/19regex.rb)
   - [songdata.txt](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby1/)
 
-### In class exercises:
+### In class exercises [Solutions Video](https://youtu.be/HF-s7aDBiVE) (10:24):
 
-#### Excercise 1:
+#### Excercise 1 ([A Solution](lectures/solutions/reduce.rb)):
 Write a ruby program which prompts for and reads one line of input. It then echos the line, then prints it repeatedly, each time removing every second character. It continues until no more characters can be removed. Treat all characters alike; no special treatment for spaces or punctuation
 
 ```
@@ -95,7 +95,7 @@ Te
 T
 ```
 
-#### Exercise 2:
+#### Exercise 2 ([A Solution](lectures/solutions/palindrome.rb)):
 Write a quick ruby script to determine if a word is a palindrome. This script
 should prompt the user for a single line of input and then echo the input, its reverse, and then whether or not it is a palindrome (regardless of case).
 
@@ -107,7 +107,7 @@ boB
 Bob is a palindrome
 ```
 
-#### Modification
+#### Modification ([A Solution](lectures/solutions/palindrome2.rb))
 Modify Exercise 2 such that if given a string with multiple words that forms a single palindrome when spaces are removed, you can detect that as well. Echo out the space reduced form of the line, its reverse, and whether or not it is a palindrome.
 
 ```
