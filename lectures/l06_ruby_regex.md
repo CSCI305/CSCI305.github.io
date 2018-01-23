@@ -31,15 +31,7 @@ As I've said earlier, the document must be read assiduously in
 You're an a55hole, kiss my ASS - User 101, 9:40 PM
 ```
 
-Construct a short program (working with the provided code), focusing on the development and application of a regular expression that will filter out and replace foul language. Your goal is to produce the following text:
-
-```
-Don't take my hall pass, you ***. - User 101, 7:40 AM
-You are a total ***wipe - User 206, 7:45 AM
-As I've said earlier, the document must be read assiduously in
- order to assure quality - User 42 9:12 AM
-You're an ***, kiss my *** - User 101, 9:40 PM
-```
+Construct a short program (working with the provided code), focusing on the development and application of a regular expression that will filter out and replace foul language.
 
 **Starting Code:** Open a new file and copy this code into it and start cleaning up the messages:
 ```ruby
@@ -57,6 +49,15 @@ messages.each do |msg|
   # clean up each messages
   # print the cleaned message
 end
+```
+
+**GOAL:** Produce the following output
+```
+Don't take my hall pass, you ***. - User 101, 7:40 AM
+You are a total ***wipe - User 206, 7:45 AM
+As I've said earlier, the document must be read assiduously in
+ order to assure quality - User 42 9:12 AM
+You're an ***, kiss my *** - User 101, 9:40 PM
 ```
 
 ### Outline and Examples
