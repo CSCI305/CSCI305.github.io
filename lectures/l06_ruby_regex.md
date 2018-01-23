@@ -4,13 +4,60 @@
 
 ### Out of Class
 
-[Watch This Video](https://youtu.be/qCCh5nQyXAo) - (1:17:53)
+#### Instructions
+1. [Watch This Video](https://youtu.be/qCCh5nQyXAo) - (1:17:53)
+2. Complete the out of class exercise below
+3. Use the following tutorials for help
 
 **Readings and Tools:**
 * [Ruby Tutorial](https://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
 * [Regular Expressions](http://ruby-doc.com/docs/ProgrammingRuby/html/tut_stdtypes.html)
 * [Another Tutorial](http://rubylearning.com/satishtalim/ruby_regular_expressions.html)
 * [Tool to explore Ruby Regular Expressions](http://rubular.com/)
+
+## Out of Class Exercises
+
+####Exercise: Write a language filter
+
+Corralling the foul language on the Internet would be an excruciatingly tough job without the use of regular expressions, which give you the capability of catching undesirable words while not blocking out acceptable but similar words.
+
+Working from the text provided below, write a filter that turns all instances and variations of "ass" into "a**" without obfuscating words like "pass".
+
+```
+Don't take my hall pass, you ass. - User 101, 7:40 AM
+You are a total a$$-wipe - User 206, 7:45 AM
+As I've said earlier, the document must be read assiduously in
+ order to assure quality - User 42 9:12 AM
+You're an a55hole, kiss my ASS - User 101, 9:40 PM
+```
+
+Construct a short program (working with the provided code), focusing on the development and application of a regular expression that will filter out and replace foul language. Your goal is to produce the following text:
+
+```
+Don't take my hall pass, you ***. - User 101, 7:40 AM
+You are a total ***wipe - User 206, 7:45 AM
+As I've said earlier, the document must be read assiduously in
+ order to assure quality - User 42 9:12 AM
+You're an ***, kiss my *** - User 101, 9:40 PM
+```
+
+**Starting Code:** Open a new file and copy this code into it and start cleaning up the messages:
+```ruby
+messages = ["Don't take my hall pass, you ass. - User 101, 7:40 AM",
+"You are a total a$$-wipe - User 206, 7:45 AM",
+"As I've said earlier, the document must be read assiduously in order to assure quality - User 42 9:12 AM",
+"You're an a55hole, kiss my ASS - User 101, 9:40 PM"]
+
+# Method to detect and remove the word ass or any of its derivatives
+def clean_message str
+
+end
+
+messages.each do |msg|
+  # clean up each messages
+  # print the cleaned message
+end
+```
 
 ### Outline and Examples
 * [Show Regex](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby_regex/regex.rb)
@@ -24,31 +71,7 @@
 * [Unescaping HTML Example](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby_regex/regex08.rb)
 * [Email Example](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby_regex/regex_email.rb)
 
-### In Class Exercises
-####Exercise: Write a language filter
-
-Corralling the foul language on the Internets would be an excruciatingly tough job without the use of regular expressions, which give you the capability of catching undesirable words while not blocking out acceptable but similar words.
-
-Working from the text provided below, write a filter that turns all instances and variations of "ass" into "a**" without obfuscating words like "pass".
-
-```
-Don't take my hall pass, you ass. - User 101, 7:40 AM
-You are a total a$$-wipe - User 206, 7:45 AM
-As I've said earlier, the document must be read assiduously in
- order to assure quality - User 42 9:12 AM
-You're an a55hole, kiss my ASS - User 101, 9:40 PM
-```
-
-Construct a short program, focusing on the development and application of a regular expression that will filter out and replace foul language. Your goal is to produce the following text:
-
-```
-Don't take my hall pass, you ***. - User 101, 7:40 AM
-You are a total ***wipe - User 206, 7:45 AM
-As I've said earlier, the document must be read assiduously in
- order to assure quality - User 42 9:12 AM
-You're an ***, kiss my *** - User 101, 9:40 PM
-```
-
+### In Class Exercise
 #### Exercise: Find the Dates
 
 Use the following code snippet (which creates an array) and a loop to extract out the date of each contract from the text of each item of the array and print the date to the console.
