@@ -8,7 +8,7 @@
 | **Class meeting time:** | MWF 0800--0850, Roberts 101                    |
 | **Instructor:**         | Isaac Griffith                                 |
 | **Contact:**            | isaac.griffith@msu.montana.edu                 |
-| **Office Hours:**       | TR, 0900--1030                                 |
+| **Office Hours:**       | TR, 1030--1200                                 |
 | **Office Location:**    | Barnard Hall Room 345                          |
 | **Final Exam:**         | May 2, 2018 from 08:00 to 09:50 in Roberts 101 |
 
