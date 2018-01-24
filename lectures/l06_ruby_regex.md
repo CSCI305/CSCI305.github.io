@@ -17,7 +17,7 @@
 
 ## Out of Class Exercises
 
-####Exercise: Write a language filter
+#### Exercise: Write a language filter
 
 Corralling the foul language on the Internet would be an excruciatingly tough job without the use of regular expressions, which give you the capability of catching undesirable words while not blocking out acceptable but similar words.
 
