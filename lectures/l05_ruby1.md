@@ -65,7 +65,7 @@ Explore Ruby:
 
 ### In class exercises [Solutions Video](https://youtu.be/HF-s7aDBiVE) (10:24):
 
-#### Excercise 1 ([A Solution](lectures/solutions/reduce.rb)):
+#### Excercise 1:
 Write a ruby program which prompts for and reads one line of input. It then echos the line, then prints it repeatedly, each time removing every second character. It continues until no more characters can be removed. Treat all characters alike; no special treatment for spaces or punctuation
 
 ```
@@ -95,6 +95,24 @@ Te
 T
 ```
 
+**Solution:**
+```ruby
+print "Please enter a line> "
+line = gets.chomp
+
+puts line
+
+until line.length < 2
+  new_line = ""
+  (0..(line.length - 1)).step(2) do |i|
+    new_line += line[i]
+  end
+
+  puts new_line
+  line = new_line
+end
+```
+
 #### Exercise 2 ([A Solution](lectures/solutions/palindrome.rb)):
 Write a quick ruby script to determine if a word is a palindrome. This script
 should prompt the user for a single line of input and then echo the input, its reverse, and then whether or not it is a palindrome (regardless of case).
@@ -118,4 +136,23 @@ was i tac a ro rac a ti saW
 Wasitacaroracatisaw
 wasitacaroracatisaW
 The line is a palindrome
+```
+
+**Solution:**
+```ruby
+def palindrome? str
+  str == str.reverse
+end
+
+print "Enter a line> "
+line = gets.chomp
+
+puts line
+puts line.reverse
+
+line.gsub!(/\s/, '')
+puts line
+puts line.reverse
+
+puts "#{line} is a palindrome" if palindrome? line.downcase
 ```

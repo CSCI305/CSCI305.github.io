@@ -5,12 +5,9 @@ contracts_arr =
 contracts_arr.each do |contract|
   date = ""
   award = ""
-  if contract =~ /\b(January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{1,2}, [0-9]{4}\b/
-    date = $&
-  end
-
-  if contract =~ /\$[0-9]{1,3},[0-9]{3},[0-9]{3}\b/
-    award = $&
+  if contract =~ /(\$\d{1,3},\d{3},\d{3}\b).*(\b[A-Z]\w+\s\d{1,2},\s\d{4}\b)/
+    award = $1
+    date = $2
   end
 
   puts "Award: #{award} to be completed by: #{date}"
