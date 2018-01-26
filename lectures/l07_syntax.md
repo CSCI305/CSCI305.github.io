@@ -25,6 +25,13 @@ Given the following grammar:
 Modify it as follows:
 - Add subtraction and division operators (- and /) with the customary precedence and associativity
 
+**Solution**
+```
+<exp> ::= <exp> + <mulexp> | <exp> - <mulexp> | <mulexp>
+<mulexp> ::= <mulexp> * <rootexp> | <mulexp> / <rootexp> | <rootexp>
+<rootexp> ::= ( <exp> )
+          | a | b | c
+```
 
 ### Group Exercises:
 
@@ -41,3 +48,11 @@ Given the following grammar:
 Modify it as follows:
 - Add a left-associative operator % between + and * in precedence.
 - Add a right-associative operator = at lower precedence than any of the other operators
+
+**Solution:**
+```
+<exp> ::= <addexp> = <exp> | <addexp>
+<addexp> ::= <addexp> + <modexp> | <modexp>
+<modexp> ::= <modexp> % <mulexp> | <mulexp>
+<rootexp> ::= ( <exp> ) | a | b | c
+```

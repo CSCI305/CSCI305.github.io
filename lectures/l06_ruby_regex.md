@@ -10,6 +10,8 @@
 3. Use the following tutorials for help
 4. Review the [Solutions Video](https://youtu.be/wJdjKmfIN0E) for the example exercises - (22:06)
 
+**[Lecture Slides](regex.pdf)**
+
 **Readings and Tools:**
 * [Ruby Tutorial](https://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
 * [Regular Expressions](http://ruby-doc.com/docs/ProgrammingRuby/html/tut_stdtypes.html)
