@@ -1,16 +1,37 @@
 # CSCI 305: Programming Languages
 
-### Language Systems
+### Language Systems I
 
 **Reading:** Webster Ch. 4
 
-[Watch This Video](https://youtu.be/11FPzprkaoE) - (22:57)
+### Instructions
+1. [Watch This Video](https://youtu.be/11FPzprkaoE) - (22:57)
+2. [Watch This Video](https://youtu.be/B-dlSRCkdMY) - (33:19)
+3. Review the [Lecture Slides](slides/Lecture10_12.pdf)
+4. Complete the Out of Class Exercise
+5. Check your learning
+6. Attend Class and complete the In Class Exercises
+7. Check your learning
 
-[Watch This Video](https://youtu.be/B-dlSRCkdMY) - (33:19)
+### Out of Class Exercise
 
-[Lecture Slides](slides/Lecture10_12.pdf)
+#### Exercise
 
-### Group Exercises
+#### Check Your Learning
+
+##### [Solution Video]() - (:)
+
+##### Solution:
+
+### In Class Exercises
+
+#### Exercise
+
+#### Check Your Learning
+
+##### [Solution Video]() - (:)
+
+##### Solution:
 
 #### Exercise 1
 What is the binding time for each of the following in a Java program? State it as precisely as possible (language-definition time, language-implementation time, compile time, link time, load time, or runtime). Explain how each of the following is bound and why it is bound when it is:
@@ -21,7 +42,7 @@ What is the binding time for each of the following in a Java program? State it a
 * The bytecode for a class.
 
 #### Exercise 2
-Supose the target assembly language for a compiler has these five instructions for integers:
+Suppose the target assembly language for a compiler has these five instructions for integers:
 
 ```
    load address,reg

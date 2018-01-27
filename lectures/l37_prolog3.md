@@ -2,10 +2,39 @@
 
 ### Prolog Part 3
 
-**Reading:** Webster Ch., Sebasta Ch.
+**Reading:** Webster Ch.
 
-[Lecture Slides](slides/Lecture.pdf)
+### Instructions
+1. [Watch This Video]()
+2. Review the [Lecture Slides]()
+3. Review the Example Code
+4. Complete the Out of Class Exercise
+5. Check Your Learning
+6. Attend Class and Complete the In Class Exercises
+7. Check Your Learning
 
-### Outline
+### Out of Class Exercise
 
-### Example Code
+#### Check Your Learning:
+
+##### [Solution Video]() - (:)
+
+##### Solution:
+
+### In Class Exercises
+
+#### Exercise 1
+
+#### Check Your Learning:
+
+##### [Solution Video]() - (:)
+
+##### Solution:
+
+#### Exercise 2
+
+#### Check Your Learning:
+
+##### [Solution Video]() - (:)
+
+##### Solution:

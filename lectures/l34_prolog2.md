@@ -1,6 +1,6 @@
 # CSCI 305: Programming Languages
 
-### Prolog Part 1
+### Prolog Part 2
 
 **Reading:** Webster Ch.
 

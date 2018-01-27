@@ -1,19 +1,20 @@
 # CSCI 305: Programming Languages
 
-### Prolog Part 1
+### Scope Part I
 
-**Reading:** Webster Ch.
+**Reading:** Webster Ch. 10
 
 ### Instructions
-1. [Watch This Video]()
-2. Review the [Lecture Slides]()
-3. Review the Example Code
-4. Complete the Out of Class Exercise
-5. Check Your Learning
-6. Attend Class and Complete the In Class Exercises
-7. Check Your Learning
+1. [Watch This Video]() - (:)
+2. Review the [Lecture Slides](slides/Lecture19_21.pdf)
+3. Complete the Out of Class Exercise
+4. Check your learning
+5. Attend Class and complete the In Class Exercises
+6. Check your learning
 
 ### Out of Class Exercise
+
+#### Exercise
 
 #### Check Your Learning:
 

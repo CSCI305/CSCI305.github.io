@@ -22,6 +22,11 @@ Show that the following grammar is ambiguous. (To show this, you must demonstrat
       | a | b | c
 ```
 
+#### Check your Learning:
+
+##### [Solution Video]() - (:)
+
+##### Solution:
 
 ### In Class Exercise:
 
@@ -33,3 +38,10 @@ Redefine the following grammar to be unambiguous.
       | ( <exp> )
       | a | b | c
 ```
+
+
+#### Check your Learning:
+
+##### [Solution Video]() - (:)
+
+##### Solution:
