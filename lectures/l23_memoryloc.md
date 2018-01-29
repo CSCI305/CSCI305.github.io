@@ -9,7 +9,7 @@
 2. Review the [Lecture Slides](slides/Lecture23.pdf)
 3. Complete the Out of Class Exercise
 4. Check your learning
-5. Attend Class and complete the In Class Exercises
+5. Attend Class and complete the In Class Exercises. Be sure to turn in both **Homework 3** and **ML Lab**
 6. Check your learning
 
 ### Out of Class Exercise

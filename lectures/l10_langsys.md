@@ -16,6 +16,12 @@
 ### Out of Class Exercise
 
 #### Exercise
+What is the binding time for each of the following in a Java program? State it as precisely as possible (language-definition time, language-implementation time, compile time, link time, load time, or runtime). Explain how each of the following is bound and why it is bound when it is:
+
+* The location in memory of a local variable in a method.
+* The meaning of the keyword `while`.
+* The size of memory of a variable of type `int`.
+* The bytecode for a class.
 
 #### Check Your Learning
 
@@ -26,22 +32,6 @@
 ### In Class Exercises
 
 #### Exercise
-
-#### Check Your Learning
-
-##### [Solution Video]() - (:)
-
-##### Solution:
-
-#### Exercise 1
-What is the binding time for each of the following in a Java program? State it as precisely as possible (language-definition time, language-implementation time, compile time, link time, load time, or runtime). Explain how each of the following is bound and why it is bound when it is:
-
-* The location in memory of a local variable in a method.
-* The meaning of the keyword `while`.
-* The size of memory of a variable of type `int`.
-* The bytecode for a class.
-
-#### Exercise 2
 Suppose the target assembly language for a compiler has these five instructions for integers:
 
 ```
@@ -67,3 +57,9 @@ Using this assembly language, give translations of the following assignment stat
 
 * `net := gross - costs`
 * `volume := (length * width) * height`
+
+#### Check Your Learning
+
+##### [Solution Video]() - (:)
+
+##### Solution:

@@ -25,7 +25,11 @@ Given the following grammar:
 Modify it as follows:
 - Add subtraction and division operators (- and /) with the customary precedence and associativity
 
-**Solution**
+#### Check Your Learning
+
+##### [Solution Video](https://youtu.be/45GCFZcTpVU) - (02:46)
+
+##### Solution
 ```
 <exp> ::= <exp> + <mulexp> | <exp> - <mulexp> | <mulexp>
 <mulexp> ::= <mulexp> * <rootexp> | <mulexp> / <rootexp> | <rootexp>
@@ -49,7 +53,11 @@ Modify it as follows:
 - Add a left-associative operator % between + and * in precedence.
 - Add a right-associative operator = at lower precedence than any of the other operators
 
-**Solution:**
+#### Check Your Learning
+
+##### [Solution Video](https://youtu.be/qsFfA6OnYLE) - (03:49)
+
+##### Solution
 ```
 <exp> ::= <addexp> = <exp> | <addexp>
 <addexp> ::= <addexp> + <modexp> | <modexp>

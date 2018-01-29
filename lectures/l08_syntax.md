@@ -24,9 +24,11 @@ Show that the following grammar is ambiguous. (To show this, you must demonstrat
 
 #### Check your Learning:
 
-##### [Solution Video]() - (:)
+##### [Solution Video](https://youtu.be/OJkf4nxowa8) - (04:30)
 
 ##### Solution:
+
+![ambiguity](images/ambiguity.png)
 
 ### In Class Exercise:
 
@@ -42,6 +44,11 @@ Redefine the following grammar to be unambiguous.
 
 #### Check your Learning:
 
-##### [Solution Video]() - (:)
+##### [Solution Video](https://youtu.be/6KTLGaE5qmI) - (07:16)
 
 ##### Solution:
+
+```
+<exp> ::= <exp> + <rootexp> | <exp> * <rootexp> | <rootexp>
+<rootexp> ::= ( <exp> ) | a | b | c
+```

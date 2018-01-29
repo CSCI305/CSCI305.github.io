@@ -5,7 +5,9 @@
 **Reading:** Webster Ch. 8
 
 ### Instructions
-1. [Watch This Video]() - (:)
+1. [Watch This Video](https://youtu.be/bhGv4Nww5aA) - (10:30)
+2. [Watch This Video](https://youtu.be/ft7Ru2CAgKA) - (10:46)
+3. [Watch This Video](https://youtu.be/etqtyBRuqA4) - (06:54)
 2. Review the [Lecture Slides](slides/Lecture17.pdf)
 3. Complete the Out of Class Exercise
 4. Check your learning
