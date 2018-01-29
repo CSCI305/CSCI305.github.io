@@ -41,7 +41,6 @@ Redefine the following grammar to be unambiguous.
       | a | b | c
 ```
 
-
 #### Check your Learning:
 <!--
 ##### [Solution Video](https://youtu.be/6KTLGaE5qmI) - (07:16)
@@ -52,4 +51,25 @@ Redefine the following grammar to be unambiguous.
 <exp> ::= <exp> + <rootexp> | <exp> * <rootexp> | <rootexp>
 <rootexp> ::= ( <exp> ) | a | b | c
 ```
+-->
+
+#### Exercise 3
+Show that the following grammar is ambiguous.
+
+```
+<s> ::= <round> <square> | <outer>
+<round> ::= ( <round> ) | ()
+<square> ::= [ <square> ] | []
+<outer> ::= ( <outer> ] | ( <inner> ]
+<inner> ::= ) <inner> [ | ) [
+```
+
+#### Check your Learning:
+
+<!--
+##### [Solution Video](https://youtu.be/wAq_9SRqAlw) - (05:46)
+
+##### Solution:
+
+![ambiguity](images/ambiguity2.png)
 -->
