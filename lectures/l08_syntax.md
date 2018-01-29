@@ -43,7 +43,7 @@ Redefine the following grammar to be unambiguous.
 
 
 #### Check your Learning:
-
+<!--
 ##### [Solution Video](https://youtu.be/6KTLGaE5qmI) - (07:16)
 
 ##### Solution:
@@ -52,3 +52,4 @@ Redefine the following grammar to be unambiguous.
 <exp> ::= <exp> + <rootexp> | <exp> * <rootexp> | <rootexp>
 <rootexp> ::= ( <exp> ) | a | b | c
 ```
+-->
