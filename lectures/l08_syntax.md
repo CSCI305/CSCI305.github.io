@@ -42,7 +42,7 @@ Redefine the following grammar to be unambiguous.
 ```
 
 #### Check your Learning:
-<!--
+
 ##### [Solution Video](https://youtu.be/6KTLGaE5qmI) - (07:16)
 
 ##### Solution:
@@ -51,7 +51,6 @@ Redefine the following grammar to be unambiguous.
 <exp> ::= <exp> + <rootexp> | <exp> * <rootexp> | <rootexp>
 <rootexp> ::= ( <exp> ) | a | b | c
 ```
--->
 
 #### Exercise 3
 Show that the following grammar is ambiguous.
@@ -66,10 +65,8 @@ Show that the following grammar is ambiguous.
 
 #### Check your Learning:
 
-<!--
 ##### [Solution Video](https://youtu.be/wAq_9SRqAlw) - (05:46)
 
 ##### Solution:
 
 ![ambiguity](images/ambiguity2.png)
--->
