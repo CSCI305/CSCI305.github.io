@@ -84,9 +84,56 @@ kerberos5
 
 #### Check Your Learning:
 
-##### [Solution Video]() - (:)
-
 ##### Solution:
+```ruby
+# Handles the processing of the extra arguments and later the file
+def handle_file
+  file_name = ARGV[1]
+  puts file_name
+  if ARGV.length > 2
+    puts ""
+    (2...ARGV.length).each do |x|
+      service = ARGV[x]
+      case service
+      when /(\w+)\/(\w+)/
+        puts "#{$1}\n  #{$2}"
+      else
+        puts "#{service}\n  udp\n  tcp"
+      end
+      puts
+    end
+  end
+end
+
+# Main method which handles the basic ARGV processing
+def main()
+  if ARGV.length == 0
+    puts "No arguments provided..."
+    puts "Usage: ruby services.rb -s file_name [service/protocol] ..."
+
+    exit(0)
+  elsif ARGV[0] == "-h"
+    puts """Usage: ruby services.rb -s file_name [service list]\n
+Options:
+  -h Prints this message
+  -s file_name\tThe name of the service file to extract info from
+
+Arguments:
+  service list\tA list of the services and their optional protocol
+              \tin the form service/protocol where the protocol can
+              \tbe either udp or tcp.
+"""
+    exit(0)
+  elsif ARGV[0] == "-s" and ARGV.length > 1
+    handle_file()
+  end
+end
+
+# Standard Script info to ensure this execution only occurs when run from command line
+if __FILE__==$0
+	main()
+end
+```
 
 ### In Class Exercises
 Continuing where we left off with the out-of-class exercise...
