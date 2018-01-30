@@ -55,6 +55,8 @@ Example: `ruby services.rb -s services.txt kerberos5 hostnames kerberos/tcp auth
 ### In Class Exercises
 Continuing where we left off with the out-of-class exercise...
 
+We will be working with **[this file](ruby2/services.txt)**
+
 We are going to use the previous code to provide the means to extract meaningful information for a UNIX services file
 
 The structure of such a file is as follows:
