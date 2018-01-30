@@ -19,7 +19,7 @@ Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Mon. Jan. 22](https://youtu.be/sVDYxiO0fU4) | ![laptop](images/laptop.png) [Ruby I](lectures/l05_ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp;
 [Wed. Jan. 24](https://youtu.be/qCCh5nQyXAo) | ![laptop](images/laptop.png) [Regular Expressions](lectures/l06_ruby_regex.html) | &nbsp; | &nbsp;
 [Fri. Jan. 26](https://youtu.be/K_uCkUBnBv0) | [Syntax and Semantics](lectures/l07_syntax.html) | [Homework 1](homeworks/hw1.html) | [Homework 0](homeworks/hw0.html)
-[Mon. Jan. 29](https://youtu.be/V40CWH9QLTo) | [Syntax and Semantics](lectures/l08_syntax.html) | &nbsp; | &nbsp;
+[Mon. Jan. 29](https://youtu.be/V40CWH9QLTo) | [Syntax and Semantics](lectures/l08_syntax.html) [Parse Trees](lectures/l08-1_parse_trees.html) | &nbsp; | &nbsp;
 [Wed. Jan. 31]() | ![laptop](images/laptop.png) [Ruby II](lectures/l09_ruby2.html) | &nbsp; | &nbsp;
 [Fri. Feb. 2](https://youtu.be/11FPzprkaoE) | [Language Systems](lectures/l10_langsys.html) | &nbsp; | &nbsp;
 [Mon. Feb. 5]() | ![laptop](images/laptop.png) [Ruby III](lectures/l11_ruby3.html) | &nbsp; | &nbsp;
