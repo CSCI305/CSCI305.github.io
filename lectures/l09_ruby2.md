@@ -79,7 +79,7 @@ Your script should take a command line of the following form:
 ```
 ruby services.rb [ -s file ] service[/protocol] . . .
 ```
-That is, it should take a list of services, optionally preceded by a specification of file to read. Each service may have an optional protocol, which is tcp or udp. If there is no protocol specified, show information for each protocol which actually occurs in the file. If -s file does not appear, read from /etc/services
+That is, it should take a list of services, optionally preceded by a specification of file to read. Each service may have an optional protocol, which is tcp or udp. If there is no protocol specified, show information for each protocol which actually occurs in the file.
 
 For each service on the command line, print several lines of output. Place a blank line between the output for each service. Print the following.
 
