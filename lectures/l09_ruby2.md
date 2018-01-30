@@ -43,8 +43,44 @@ Using `ARGV` along with our knowledge of regular expressions, and now I/O operat
 The first part of the problem will be to construct the portion of the script which processes the command line arguments, we should expect the following:
 * -s file_name -> the -s flag followed by an argument indicating a file name containing UNIX service data
 * service\[/proto\] -> a list of service names (with optional protocol (separated by a slash)) where each service/protocol pair is separated by a space
+* -h prints the help info
 
 Example: `ruby services.rb -s services.txt kerberos5 hostnames kerberos/tcp auth pop3 ftp`
+
+Should print the following message if no arguments are provided:
+```
+No arguments provided...
+
+Usage: ruby services.rb -s file_name [service list]
+```
+
+Should print the following message if `-h` option provided as first option, don't worry about searching for `-h`, just assume they will use either `-h` or `-s` as the first option
+```
+Usage: ruby services.rb -s file_name [service list]
+
+Options:
+  -h Prints this message
+  -s file_name  The name of the service file to extract info from
+
+Arguments:
+  service list  A list of the services and their optional protocol
+                in the form service/protocol where the protocol can
+                be either udp or tcp.
+```
+
+For now the `-s` option should simply output the name of the file followed by a list of the services and followed by a line for each protocol:
+
+For example the command `$ ruby services.rb -s services.txt hostnames kerberos5/tcp` should output
+```
+services.txt
+
+hostnames
+  udp
+  tcp
+
+kerberos5
+  tcp
+```
 
 #### Check Your Learning:
 
@@ -106,7 +142,7 @@ The first line is printed for any match. The NNN is the port number. The second 
 **Hints**
 The command line parameters are given the Ruby script in a pre-defined array called `ARGV`. If a `-s` option is given, you will see `-s` in `ARGV[0]` and the `file name` in `ARGV[1]`. Before processing service names, see if `ARGV[0]` is `-s`. If so, off the -s and the file name, and record the latter in some appropriate variable. Then you can continue processing from ARGV[0] without worrying about the option.
 
-After dispensing with option, you must essentially compare each command-line item with each line in the file. For this you will need a double loop. You can loop through through each argument (using while() or foreach or something similar) and scan the file for each one. Alternatively, you can scan through the file once, at each line running through the argument list to see if you have a match. (The latter is more efficient, but the former produces output in the same order as the command line, which seems more natural.) Open file objects have a rewind method which returns to the start of the file.
+After dispensing with option, you must essentially compare each command-line item with each line in the file. For this you will need a double loop. You can loop through through each argument (using `while()` or `foreach` or something similar) and scan the file for each one. Alternatively, you can scan through the file once, at each line running through the argument list to see if you have a match. (The latter is more efficient, but the former produces output in the same order as the command line, which seems more natural.) **Open file objects have a rewind method which returns to the start of the file.**
 
 After reading each line, you may want to start by removing the comment and saving it somewhere. The simplest way to decide if a line matches the command-line specification is probably to break the line into fields and examine the fields. You can break it up using split, or by matching it and using $n variables. It is also possible to use the command-line item to build a pattern which will match only lines you want, but be careful about matching the prefix of some actual service name by accident.
 
