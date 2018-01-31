@@ -29,6 +29,11 @@ What is the binding time for each of the following in a Java program? State it a
 
 ##### Solution:
 
+* The location in memory of a local variable in a method in Java is bound at **load time**.
+* The meaning of the keyword `while` in Java is bound at **language definition time**.
+* The size of memory of a varaible of type `int` in Java is bound at **language definition time**.
+* The bytecode for a class in Java is bound at **compile time**.
+
 ### In Class Exercises
 
 #### Exercise
@@ -60,6 +65,26 @@ Using this assembly language, give translations of the following assignment stat
 
 #### Check Your Learning
 
-##### [Solution Video]() - (:)
+<!--
+##### [Solution Video](https://youtu.be/jgjhDAiceqo) - (04:51)
 
 ##### Solution:
+
+* `net := gross - costs`
+```
+   load gross, r1
+   load costs, r2
+   sub r1, r2, r1
+   store r1, net
+```
+
+* `volume := (length * width) * height`
+```
+   load length, r1
+   load width, r2
+   mul r1, r2, r1
+   load height, r2
+   mul r1, r2, r1
+   store r1, volume
+```
+-->
