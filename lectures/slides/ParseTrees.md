@@ -117,3 +117,289 @@ In This case we start with the rightmost terminal and continue to replace with n
 ```
 
 We then build the parse tree starting from the bottom
+
+# Constructing Abstract Syntax Trees
+
+## Parse Trees to ASTs
+
+An Abstract Syntax Tree (AST) is a simplified form of a Parse Tree which is useful for interpreting/converting code from one language to another. Thus, it is useful for the compiling process.
+
+An AST typically is a Binary Tree and requires that there are no non-terminal symbols left in the tree, and this then requires that we have the following:
+
+- A Parse Tree
+- A notion of traversing the tree (we will assume an In Order traversal)
+
+## The Conversion Process
+
+```
+      <S1>
+  /     |     \
+<S1>    +    <S2>
+ |        /   |    \
+<S2>     /    |     \
+ |      /     |      \
+<S3>   |      |       |
+ |     |      |       |
+ a     |      |       |
+      <S2>    *     <S3>
+       |              |
+      <S3>            |
+       |              |
+       b              |
+                      c
+```
+
+## Example
+
+```
+      <S1>                      <S1>
+  /     |     \            /     |     \
+<S1>    +    <S2>         a      +    <S2>
+ |        /   |    \               /   |    \
+<S2>     /    |     \             /    |     \
+ |      /     |      \           /     |      \
+<S3>   |      |       |          |     |       |
+ |     |      |       |          |     |       |
+ a     |      |       |          |     |       |
+      <S2>    *     <S3>        <S2>   *     <S3>
+       |              |          |             |
+      <S3>            |         <S3>           |
+       |              |          |             |
+       b              |          b             |
+                      c                        c
+```
+
+## Example
+
+```
+      <S1>                      <S1>
+  /     |     \            /     |     \
+<S1>    +    <S2>         a      +    <S2>
+ |        /   |    \               /   |    \
+<S2>     /    |     \             b    |     \
+ |      /     |      \                 |      \
+<S3>   |      |       |                |       |
+ |     |      |       |                |       |
+ a     |      |       |                |       |
+      <S2>    *     <S3>               *     <S3>
+       |              |                        |
+      <S3>            |                        |
+       |              |                        |
+       b              |                        |
+                      c                        c
+```
+
+## Example
+
+```
+      <S1>                      <S1>
+  /     |     \            /     |     \
+<S1>    +    <S2>         a      +    <S2>
+ |        /   |    \               /   |    \
+<S2>     /    |     \             b    *     \
+ |      /     |      \                        \
+<S3>   |      |       |                        |
+ |     |      |       |                        |
+ a     |      |       |                        |
+      <S2>    *     <S3>                     <S3>
+       |              |                        |
+      <S3>            |                        |
+       |              |                        |
+       b              |                        |
+                      c                        c
+```
+
+## Example
+
+```
+      <S1>                     <S1>
+  /     |     \            /     |     \
+<S1>    +    <S2>         a      +    <S2>
+ |        /   |    \                /   |    \
+<S2>     /    |     \              b    *     c
+ |      /     |      \
+<S3>   |      |       |
+ |     |      |       |
+ a     |      |       |
+      <S2>    *     <S3>
+       |              |
+      <S3>            |
+       |              |
+       b              |
+                      c
+```
+
+## Example
+
+```
+      <S1>                     <S1>
+  /     |     \            /     |     \
+<S1>    +    <S2>         a      +      *
+ |        /   |    \                   / \
+<S2>     /    |     \                 b   c
+ |      /     |      \
+<S3>   |      |       |
+ |     |      |       |
+ a     |      |       |
+      <S2>    *     <S3>
+       |              |
+      <S3>            |
+       |              |
+       b              |
+                      c
+```
+
+## Example
+
+```
+      <S1>                   +
+  /     |     \            /   \
+<S1>    +    <S2>         a     *
+ |        /   |    \           / \
+<S2>     /    |     \         b   c
+ |      /     |      \
+<S3>   |      |       |
+ |     |      |       |
+ a     |      |       |
+      <S2>    *     <S3>
+       |              |
+      <S3>            |
+       |              |
+       b              |
+                      c
+```
+
+## Example
+
+```
+          <S>
+         /   \
+  <round>    <square>
+ /   |   \     / |  \
+( <round> )   /  |   \
+   /   \     |   |    \
+  (     )    |   |     \
+             [ <square> ]
+                /  \
+               [    ]
+```
+
+## Example
+
+```
+          <S>                      <S>
+         /   \                    /   \
+  <round>    <square>       <round>    <square>
+ /   |   \     / |  \      /   |   \     / |  \
+( <round> )   /  |   \    ( <round> )   /  |   \
+   /   \     |   |    \      /   \     |   |    \
+  (     )    |   |     \    (     )    |   |     \
+             [ <square> ]              [ <square> ]
+                /  \                      /  \
+               [    ]                    [    ]
+```
+
+## Example
+
+```
+          <S>                      <S>
+         /   \                    /   \
+  <round>    <square>       <round>    <square>
+ /   |   \     / |  \      /   |   \     / |  \
+( <round> )   /  |   \    (    )    )   /  |   \
+   /   \     |   |    \      /         |   |    \
+  (     )    |   |     \    (          |   |     \
+             [ <square> ]              [ <square> ]
+                /  \                      /  \
+               [    ]                    [    ]
+```
+
+## Example
+
+```
+          <S>                     <S>
+         /   \                /         \
+  <round>    <square>        )       <square>
+ /   |   \     / |  \      / | \      / |  \
+( <round> )   /  |   \    (  (  )    /  |   \
+   /   \     |   |    \             |   |    \
+  (     )    |   |     \            |   |     \
+             [ <square> ]           [ <square> ]
+                /  \                   /  \
+               [    ]                 [    ]
+```
+
+## Example
+
+```
+          <S>                    )
+         /   \               /       \
+  <round>    <square>       (      <square>
+ /   |   \     / |  \      / \      / |  \
+( <round> )   /  |   \    (   )    /  |   \
+   /   \     |   |    \           |   |    \
+  (     )    |   |     \          |   |     \
+             [ <square> ]         [ <square> ]
+                /  \                 /  \
+               [    ]               [    ]
+```
+
+## Example
+
+```
+          <S>                    )
+         /   \               /       \
+  <round>    <square>       (      <square>
+ /   |   \     / |  \      / \      / | \
+( <round> )   /  |   \    (   )    /  |  \
+   /   \     |   |    \            |  |  |
+  (     )    |   |     \           |  |  |
+             [ <square> ]          [  ]  ]
+                /  \                 /
+               [    ]               [
+```
+
+## Example
+
+```
+          <S>                    )
+         /   \               /       \
+  <round>    <square>       (      <square>
+ /   |   \     / |  \      / \      / | \
+( <round> )   /  |   \    (   )    [  ]  ]
+   /   \     |   |    \              /
+  (     )    |   |     \            [
+             [ <square> ]
+                /  \
+               [    ]
+```
+
+## Example
+
+```
+          <S>                    )
+         /   \               /       \
+  <round>    <square>       (         ]
+ /   |   \     / |  \      / \      / | \
+( <round> )   /  |   \    (   )    [  [  ]
+   /   \     |   |    \
+  (     )    |   |     \
+             [ <square> ]
+                /  \
+               [    ]
+```
+
+## Example
+
+```
+          <S>                  )
+         /   \               /   \
+  <round>    <square>       (     ]
+ /   |   \     / |  \      / \   / \
+( <round> )   /  |   \    (   ) [   ]
+   /   \     |   |    \        /
+  (     )    |   |     \      [
+             [ <square> ]
+                /  \
+               [    ]
+```

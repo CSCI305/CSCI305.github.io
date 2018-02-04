@@ -6,4 +6,5 @@
 
 ### Instructions
 1. [Watch This Video](https://youtu.be/CbdomSj8rvY) - (11:42)
+2. [Watch This Video](https://youtu.be/jgjhDAiceqo) - (:)
 2. Review the [Lecture Slides](slides/ParseTrees.pdf)
