@@ -25,8 +25,6 @@ What is the binding time for each of the following in a Java program? State it a
 
 #### Check Your Learning
 
-##### [Solution Video]() - (:)
-
 ##### Solution:
 
 * The location in memory of a local variable in a method in Java is bound at **load time**.
@@ -65,7 +63,6 @@ Using this assembly language, give translations of the following assignment stat
 
 #### Check Your Learning
 
-<!--
 ##### [Solution Video](https://youtu.be/jgjhDAiceqo) - (04:51)
 
 ##### Solution:
@@ -87,4 +84,3 @@ Using this assembly language, give translations of the following assignment stat
    mul r1, r2, r1
    store r1, volume
 ```
--->
