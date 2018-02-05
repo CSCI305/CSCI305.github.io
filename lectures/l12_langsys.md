@@ -56,41 +56,47 @@ In these instructions, and *address* is the name of a static variable (whose act
    store r1,result
 ```
 
-Using this assembly language, give translations of the following assignment statements. Use as few instructions as possible:
+1. Create a machine language to match the provided assembly language. That is, give a binary encoding of the instruction set, so that each possible instruction has a unique encoding as a string of bits. Assume that addresses require 16 bits. Choose an encoding that is simple (so it could be implemented in hardware efficiently) but not unnecessarily wasteful of space. Different instructions need not be the same length, as long as the machine-language programs are unambiguous. Show the format you use for each instruction. Show the translation of this assembly-language program into your machine language:
 
-* cube := (x * x) * x
-* final := ((a - abase) * (b - bbase)) * (c - cbase)
+```
+load width, r1
+load n, r2
+mul r1, r2, r1
+load offset, r2
+add r2, r1, r1
+store r1, result
+```
 
 #### Check Your Learning:
 
 <!--
-##### [Solution Video](https://youtu.be/buUvlIPm2_c) - (05:44)
+##### [Solution Video]() - (:)
 
-##### Solution:
+##### A Solution:
 
-* `cube := (x * x) * x`
-
-```
-   load x, r1
-   mul r1, r1, r2
-   mul r2, r1, r1
-   store r1, cube
-```
-
-* `final := ((a - abase) * (b - bbase)) * (c - cbase)`
+Instruction | code | extra
+----------- | ---- | -----
+load | 000 | 000000000000000 000
+add |  001 | 000 000 000
+sub |  010 | 000 000 000
+mul |  011 | 000 000 000
+store | 100 | 000 0000000000000000
 
 ```
-   load a, r1
-   load abase, r2
-   sub r1, r2, r1
-   load b, r2
-   load bbase, r3
-   sub r2, r3, r2
-   mul r1, r2, r1
-   load c, r2
-   load cbase, r3
-   sub r2, r3, r2
-   mul r1, r2, r1
-   store r1, final
+width  = 01010110 01101001
+offset = 11010010 00110101
+n      = 10001001 00100101
+result = 11100110 11101010
+
+r1 001
+r2 010
+r3 100
+
+000 01010110 01101001 001
+000 10001001 00100101 010
+011 001 010 001
+000 11010010 00110101 010
+001 010 001 001
+100 001 11100110 11101010
 ```
 -->
