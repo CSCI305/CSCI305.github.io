@@ -5,38 +5,7 @@
 **Reading:** Ruby Tutorial Sections 10, 18, 20, 22
 
 ### Instructions
-1. [Watch This Video]()
-2. Review the Tutorial
-3. Review the Example Code
-4. Complete the Out of Class Exercises
-5. Check Your Learning
-6. Attend Class and complete the In Class Exercises
-7. Check Your Learning
-
-### Code Examples
-
-### Out of Class Exercise
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
-
-### In Class Exercises
-
-#### Exercise 1
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
-
-#### Exercise 2
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
+1. [Watch This Video](https://youtu.be/MqUDzTwOZbA) - (21:05)
+2. [Review the Tutorial](https://www.tutorialspoint.com/ruby/ruby_exceptions.htm)
+3. Attend the Lecture
+3. Review the [Example Code](https://github.com/CSCI305/csci305-ruby-examples/blob/master/ruby3/exceptions.rb)

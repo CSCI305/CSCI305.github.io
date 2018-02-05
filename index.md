@@ -23,7 +23,7 @@ Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Wed. Jan. 31]() | ![laptop](images/laptop.png) [Ruby II](lectures/l09_ruby2.html) | &nbsp; | &nbsp;
 [Fri. Feb. 2](https://youtu.be/11FPzprkaoE) | [Language Systems](lectures/l10_langsys.html) | &nbsp; | &nbsp;
 [Mon. Feb. 5](https://youtu.be/B-dlSRCkdMY) | [Language Systems](lectures/l12_langsys.html) | &nbsp; | &nbsp;
-[Wed. Feb. 7]() | ![laptop](images/laptop.png) [Ruby III](lectures/l11_ruby3.html) | &nbsp; | &nbsp;
+[Wed. Feb. 7]() | *[Ruby III](lectures/l11_ruby3.html)* | &nbsp; | &nbsp;
 [Fri. Feb. 9](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l13_ml1.html) | [Homework 2](homeworks/hw2.html) | [Homework 1](homeworks/hw1.html)
 [Mon. Feb. 12](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l14_ml1.html) | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/)
 Wed. Feb. 14 | *[Types](lectures/l15_types.html)* | &nbsp; | &nbsp;
