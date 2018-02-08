@@ -69,18 +69,15 @@ store r1, result
 
 #### Check Your Learning:
 
-<!--
-##### [Solution Video]() - (:)
-
 ##### A Solution:
 
-Instruction | code | extra
------------ | ---- | -----
-load | 000 | 000000000000000 000
-add |  001 | 000 000 000
-sub |  010 | 000 000 000
-mul |  011 | 000 000 000
-store | 100 | 000 0000000000000000
+Instruction | code
+----------- | ----
+load | 000
+add |  001
+sub |  010
+mul |  011
+store | 100
 
 ```
 width  = 01010110 01101001
@@ -99,4 +96,3 @@ r3 100
 001 010 001 001
 100 001 11100110 11101010
 ```
--->

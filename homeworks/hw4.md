@@ -10,3 +10,4 @@
 
 1. [Get the PDF](https://raw.githubusercontent.com/CSCI305/csci305-homework/master/hw4.pdf)
 2. Answer the questions and turn in at the beginning of class on April 2.
+3. Turn you homework in as a PDF or Plain Text file to the Homework 4 Dropbox on BrightSpace/D2L
