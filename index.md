@@ -16,7 +16,7 @@ Wed. Jan. 10 | Course Introduction | &nbsp; | &nbsp;
 Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Wed. Jan. 17](https://youtu.be/fcTpXS-nons) | *[History](lectures/l03_history.html)* | &nbsp; | &nbsp;
 [Fri. Jan. 19](https://youtu.be/hETZpdJcn7M) | [Grammars](lectures/l04_grammars.html) | &nbsp; | &nbsp;
-[Mon. Jan. 22](https://youtu.be/sVDYxiO0fU4) | ![laptop](images/laptop.png) [Ruby I](lectures/l05_ruby1.html) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/) | &nbsp;
+[Mon. Jan. 22](https://youtu.be/sVDYxiO0fU4) | ![laptop](images/laptop.png) [Ruby I](lectures/l05_ruby1.html) | [Ruby Lab](homeworks/ruby_lab.html) | &nbsp;
 [Wed. Jan. 24](https://youtu.be/qCCh5nQyXAo) | ![laptop](images/laptop.png) [Regular Expressions](lectures/l06_ruby_regex.html) | &nbsp; | &nbsp;
 [Fri. Jan. 26](https://youtu.be/K_uCkUBnBv0) | [Syntax and Semantics](lectures/l07_syntax.html) | [Homework 1](homeworks/hw1.html) | [Homework 0](homeworks/hw0.html)
 [Mon. Jan. 29](https://youtu.be/V40CWH9QLTo) | [Syntax and Semantics](lectures/l08_syntax.html) [Parse Trees](lectures/l08-1_parse_trees.html) | &nbsp; | &nbsp;
@@ -25,7 +25,7 @@ Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Mon. Feb. 5](https://youtu.be/B-dlSRCkdMY) | [Language Systems](lectures/l12_langsys.html) | &nbsp; | &nbsp;
 [Wed. Feb. 7]() | *[Ruby III](lectures/l11_ruby3.html)* | &nbsp; | &nbsp;
 [Fri. Feb. 9](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l13_ml1.html) | [Homework 2](homeworks/hw2.html) | [Homework 1](homeworks/hw1.html)
-[Mon. Feb. 12](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l14_ml1.html) | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/) | [Ruby Lab](https://github.com/CSCI305/csci305-ruby-lab/)
+[Mon. Feb. 12](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l14_ml1.html) | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/) | [Ruby Lab](homeworks/ruby_lab.html)
 Wed. Feb. 14 | *[Types](lectures/l15_types.html)* | &nbsp; | &nbsp;
 Fri. Feb. 16 | ![laptop](images/laptop.png) [ML II](lectures/l16_ml2.html) | &nbsp; | &nbsp;
 Mon. Feb. 19 | President's Day - No Class! | &nbsp; | &nbsp;
