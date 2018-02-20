@@ -17,7 +17,7 @@
 ### Out of Class Exercise
 
 #### Exercise 1
-Consider an unknown language with a left-associative `+` operator that is overloaded to have the following types: `int * real -> real`, `int * int -> int`, `real * int -> real`, and `real * real -> real`. Suppose the variable `i` has type `int` and the variable `r` has type `real`. For each `+` opeartor in each of the following expressions, say which type of `+` is used:
+Consider an unknown language with a left-associative `+` operator that is overloaded to have the following types: `int * real -> real`, `int * int -> int`, `real * int -> real`, and `real * real -> real`. Suppose the variable `i` has type `int` and the variable `r` has type `real`. For each `+` operator in each of the following expressions, say which type of `+` is used:
 
 - `i + r`
 - `i + (r + i)`
@@ -37,7 +37,7 @@ Write an ML function definition for each of the following functions. Try to pred
 ### In Class Exercises
 
 #### Exercise 1
-Consider an unknown language with integer and string types in which `1 + 2 * 3` evaluates to `7`, `"1" + "2" + "3"` evaluates to `"123"`, `"1" + 2 + 3` evaluates to `"123"`, and `1 + "2*3"` has a type error. Describe a system of precedence, associativity, overloading, and coercison that could account for this. In your system what is the result of evaluating the expression: `"1" + 2 * 3`?
+Consider an unknown language with integer and string types in which `1 + 2 * 3` evaluates to `7`, `"1" + "2" + "3"` evaluates to `"123"`, `"1" + 2 + 3` evaluates to `"123"`, and `1 + "2*3"` has a type error. Describe a system of precedence, associativity, overloading, and coercion that could account for this. In your system what is the result of evaluating the expression: `"1" + 2 * 3`?
 
 #### Check Your Learning:
 
