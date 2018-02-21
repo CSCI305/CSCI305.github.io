@@ -22,6 +22,17 @@ Consider an unknown language with a left-associative `+` operator that is overlo
 - `i + r`
 - `i + (r + i)`
 
+#### Check Your Learning:
+
+##### Solution:
+- `i + r`
+
+In this case, the type of `+` operator is `int * real -> real`
+
+- `i + (r + i)`
+
+In this case, the second `+` operator, in `(r + i)`, is of type `real * int -> real` which then makes the first `+` operator of type `int * real -> real`.
+
 #### Exercise 2
 Write an ML function definition for each of the following functions. Try to predict what polytype ML will infer for each function. Then check your predictions using the ML language system. What is the polytype determined by ML for each case?
 
@@ -33,6 +44,26 @@ Write an ML function definition for each of the following functions. Try to pred
 #### Check Your Learning:
 
 ##### Solution:
+
+- `f(x) = 1`
+  ```ml
+  fun f x = 1; (* Type: f = fn : 'a -> int *)
+  ```
+
+- `f(x) = x`
+  ```ml
+  fun f x = x; (* Type: f = fn : 'a -> 'a *)
+  ```
+
+- `f(g) = g(1)`
+  ```ml
+  fun f x = g(x); (* Type: f = fn : (int -> 'a) -> 'a *)
+  ```
+
+- `f(g, x, y) = g(x, y)`
+  ```ml
+  fun f (g, x, y) = g(x, y); (* Type: f = fn : ('a * 'b -> 'c) * 'a * 'b -> 'c *)
+  ```
 
 ### In Class Exercises
 
