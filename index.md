@@ -4,7 +4,7 @@
 
 <h3><a href="syllabus.html">Syllabus</a></h3>
 
-## [Practice Exam](exams/midterm-practice.pdf)
+<h3><a href="exams/midterm-practice.pdf">Practice Midterm</a></h3>
 
 <h1>Course Schedule</h1>
 </div>
