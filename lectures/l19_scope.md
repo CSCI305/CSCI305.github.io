@@ -73,7 +73,7 @@ fun g x =
 Copy it and then annotate it as follows:
 - Draw a circle around every block, and number the blocks.
 - Identify each definition of a name.
-- For each definition, describe its cope in terms of your block numbers
+- For each definition, describe its scope in terms of your block numbers
 - For each occurrence of a name (other than a definition of that name), show which definition is used to bind it. Check that this agrees with your scopes.
 
 #### Check Your Learning:
