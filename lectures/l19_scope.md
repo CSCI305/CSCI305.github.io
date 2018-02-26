@@ -36,6 +36,20 @@ Copy it and then annotate it as follows:
 #### Check Your Learning:
 
 ##### Solution:
+Definition      | Binding
+--------------- | -------
+class Reuse     | Binding for the type Reuse
+method Reuse()  | Binding for the method Reuse of type Reuse -> Reuse
+parameter Reuse | Binding for the parameter Reuse of type Reuse in the Method Reuse
+label Reuse:    | Binding for the labelled block Reuse
+
+Use of Reuse | Binding Used
+------------ | ------------
+Reuse.Reuse  | bound to the method Reuse in the Class Reuse
+(Reuse)      | bound to the parameter Reuse of the method Reuse in the class Reuse
+== Reuse     | bound to the parameter Reuse of the method Reuse in the class Reuse
+break Reuse  | bound to the Label Reuse
+return Reuse | bound to the parameter Reuse of the method Reuse in the class Reuse
 
 ### In Class Exercises
 
