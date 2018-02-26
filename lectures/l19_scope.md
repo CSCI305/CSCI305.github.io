@@ -38,10 +38,10 @@ Copy it and then annotate it as follows:
 ##### Solution:
 
 Definition | Binding
----------- | -------
+-----------|--------
 class Reuse | Binding for the type Reuse
 method Reuse() | Binding for the method Reuse of type Reuse -> Reuse
-parameter Reuse | Binding for the parameter Reuse of type Reuse in the Method Reuse
+parameter Reuse |Binding for the parameter Reuse of type Reuse in the Method Reuse
 label Reuse: | Binding for the labeled block Reuse
 
 Use of Reuse | Binding Used
