@@ -36,6 +36,7 @@ Copy it and then annotate it as follows:
 #### Check Your Learning:
 
 ##### Solution:
+
 Definition | Binding
 ---------- | -------
 class Reuse | Binding for the type Reuse
