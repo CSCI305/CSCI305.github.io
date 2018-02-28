@@ -6,6 +6,8 @@
 
 <h3><a href="exams/midterm-practice.pdf">Practice Midterm</a></h3>
 
+<h3><a href="exams/midterm-practice.html">Practice Midterm Solutions</a></h3>
+
 <h1>Course Schedule</h1>
 </div>
 
