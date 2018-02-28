@@ -35,16 +35,6 @@
   - operator association
 * Regular Expressions (in Ruby)
 * Imperative Paradigm
-  - von Neuman model
-  - procedural abstraction
-* Variables
-  - variable names
-  - variable bindings
-  - assignment and L-values and R-values
-  - scope
-  - static vs. dynamic scoping
-  - symbol tables
-  - lifetime
 * Types
   - type conversion
   - strong vs. weak typing
@@ -52,4 +42,9 @@
   - type equivalence
   - abstract data types
   - enumerations
-  - pointers and references
+  - type annotation
+* Polymorphism
+  - parameter coercion
+  - parametric polymorphism
+  - subtype polymorphism
+  - ad-hoc vs. universal polymorphism
