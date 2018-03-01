@@ -24,8 +24,10 @@
 * **NOT Permitted:** textbook, notebooks
 
 ## Midterm Concepts
+All of Chapters 1 - 9 and Chapter 24
+
 * History of programming languages (no need to memorize dates or people)
-* Overview of the four programming paradigms
+* The four programming language paradigms
 * Grammars
   - Backus-Naur form grammars (BNF)
   - parse-trees
@@ -34,7 +36,9 @@
   - operator precedence
   - operator association
 * Regular Expressions (in Ruby)
-* Imperative Paradigm
+* Language Systems
+  - Classical Sequence
+  - Deviations from the Classical Sequence
 * Types
   - type conversion
   - strong vs. weak typing
