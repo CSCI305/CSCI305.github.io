@@ -5,7 +5,7 @@
 
 ## Relevant Course Materials
 * **Slide Decks:** Lectures 1-10
-* **Readings:** Webster 1-4, 6, 8, 10
+* **Readings:** Webster 1-10 and 24
 * **Assignments:** HW1, HW2
 
 ## Review
