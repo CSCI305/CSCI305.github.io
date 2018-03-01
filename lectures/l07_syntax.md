@@ -9,8 +9,9 @@
 ### Instructions
 1. [Watch This Video](https://youtu.be/K_uCkUBnBv0) - (26:15)
 2. [Watch This Video](https://youtu.be/V40CWH9QLTo) - (10:44)
-3. Complete the Out of class exercise
-4. Review the [Lecture Slides](slides/Lecture07_08.pdf)
+3. [EBNF Clarification Video](https://youtu.be/54dkAZCall8)
+4. Complete the Out of class exercise
+5. Review the [Lecture Slides](slides/Lecture07_08.pdf)
 
 ### Out of Class Exercise:
 Given the following grammar:

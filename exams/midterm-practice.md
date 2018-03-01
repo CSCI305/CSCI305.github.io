@@ -220,11 +220,10 @@
 
           ```
           <S> ::= {<S1> +} <S1>
-          <S1> ::= <S2> {* <S2>}
+          <S1> ::= [<S1> *] <S2>
           <S2> ::= '(' <S> ')' | a | b
 
           Note: <proda> ::= {<prodb> op} <prodb> is for right-associative op
-                <proda> ::= <prodb> {op <prodb>} is for left-associative op
           ```
 
         f. (3 points) Draw a parse tree to explain the string: `b + a * (a + b) + a`
