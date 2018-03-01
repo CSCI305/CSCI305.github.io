@@ -50,7 +50,7 @@
    ```
    <exp> ::= {<plusexp> =} <plusexp>
    <plusexp> ::= <modexp> {(+ | -) <modexp>}
-   <modexp> ::= <modexp> {% <mulexp>}
+   <modexp> ::= <modexp> { % <mulexp>}
    <mulexp> ::= <rootexp> {(/ | *) <rootexp>}
    <rootexp> ::= '(' <exp> ')' | a | b | c
 
