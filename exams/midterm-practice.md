@@ -282,6 +282,6 @@ For each of the following assignments, knowing nothing about the values of the v
 
              `i * r: int * real -> real`
 
-             `r * i: real * int -> real`
+             `r * i: real * real -> real`
 
              `i * (): int * real -> real`
