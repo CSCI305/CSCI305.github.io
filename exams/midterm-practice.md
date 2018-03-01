@@ -129,7 +129,7 @@
 <br/><br/><br/><br/><br/>
 (2) (2 Points) Give the ML type corresponding to the following set: `{(true, true), (true, false), (false, true), (false, false)}`
 
-  `bool * bool list`
+  `(bool * bool) list`
 
 <br/><br/><br/><br/><br/><br/><br/>
 (3) (2 points) Context free grammars are used to capture which aspect of a programming language?

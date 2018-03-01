@@ -36,13 +36,26 @@
 
    c. Then add a right-associative operator = at lower precedence than any of the other operators.
 
-   **Complete Solution**
+   **Complete Solution with Recursion**
    ```
    <exp> ::= <plusexp> [= <exp>]
    <plusexp> ::= [<plusexp> (+ | -)] <modexp>
    <modexp> ::= [<modexp> %] <mulexp>
    <mulexp> ::= [<mulexp> (/ | *)] <rootexp>
    <rootexp> ::= '(' <exp> ')' | a | b | c
+   ```
+
+   **OR Without Recursion**
+
+   ```
+   <exp> ::= {<plusexp> =} <plusexp>
+   <plusexp> ::= <modexp> {(+ | -) <modexp>}
+   <modexp> ::= <modexp> {% <mulexp>}
+   <mulexp> ::= <rootexp> {(/ | *) <rootexp>}
+   <rootexp> ::= '(' <exp> ')' | a | b | c
+
+   {op <prod>} indicates left-associative
+   {<prod> op} indicates right-associative
    ```
 
 2. Show that the following grammar is ambiguous. (Note: To show that a grammar is ambiguous, you must demonstrate that it can generate two parse trees for the same string.)
