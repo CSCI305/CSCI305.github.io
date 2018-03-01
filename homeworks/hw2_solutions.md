@@ -48,13 +48,26 @@
    **OR Without Recursion**
 
    ```
-   <exp> ::= <plusexp> [= <exp>]
+   <exp> ::= {<plusexp> =} <plusexp>
    <plusexp> ::= <modexp> {(+ | -) <modexp>}
-   <modexp> ::= <modexp> { % <mulexp>}
+   <modexp> ::= <mulexp> { % <mulexp>}
    <mulexp> ::= <rootexp> {(/ | *) <rootexp>}
    <rootexp> ::= '(' <exp> ')' | a | b | c
 
    Note: <proda> ::= <prodb> {op <prodb>} indicates left-associative op
+         <proda> ::= {<prodb> op} <prodb> indicates right-associative op
+   ```
+
+   **OR With Both recursive and non-recursive rules**
+
+   ```
+   <exp> ::= <plusexp> [= <exp>]
+   <plusexp> ::= <modexp> {(+ | -) <modexp>}
+   <modexp> ::= <mulexp> { % <mulexp>}
+   <mulexp> ::= <rootexp> {(/ | *) <rootexp>}
+   <rootexp> ::= '(' <exp> ')' | a | b | c
+
+   Note: <proda> ::= <prodb> {op <prodb>} only used for left-associative ops
    ```
 
 2. Show that the following grammar is ambiguous. (Note: To show that a grammar is ambiguous, you must demonstrate that it can generate two parse trees for the same string.)
