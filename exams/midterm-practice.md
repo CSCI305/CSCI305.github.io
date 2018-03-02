@@ -286,9 +286,9 @@ For each of the following assignments, knowing nothing about the values of the v
 
         b. (5 points) `r * i * r`
 
-             `r * i: real * int -> real`
-
              `i * r: real * real -> real`
+
+             `r * i: real * real -> real`
 
         c. (5 points) `r * (i * r)`
 
@@ -300,8 +300,8 @@ For each of the following assignments, knowing nothing about the values of the v
 
              `(i * r): int * real -> real`
 
-             `i * r: int * real -> real`
+             `i * (): int * real -> real`
 
              `r * i: real * real -> real`
 
-             `i * (): int * real -> real`
+             `i * r: int * real -> real`
