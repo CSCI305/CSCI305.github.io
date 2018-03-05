@@ -38,7 +38,7 @@ Fri. Feb. 23 | ![laptop](images/laptop.png) [ML III](lectures/l18_ml3.html) | [H
 Mon. Feb. 26 | [Scope](lectures/l19_scope.html) | &nbsp; | &nbsp;
 Wed. Mar. 28 | [Midterm Review](lectures/l20_midtermrev.html) | &nbsp; |
 **Fri. Mar. 2** | **Midterm Exam** | &nbsp; | **Midterm Exam (25%)**
-Mon. Feb. 5 | [Scope](lectures/l21_scope.html) | &nbsp; | &nbsp;
+Mon. Feb. 5 | [Midterm Review](lectures/l21_scope.html) | &nbsp; | &nbsp;
 Wed. Mar. 7 | ![laptop](images/laptop.png) [ML IV](lectures/l22_ml4.html) | &nbsp; | &nbsp;
 Fri. Mar. 9 | [Memory Locations](lectures/l23_memoryloc.html) | &nbsp; | [Homework 3](homeworks/hw3.html), [ML Lab](https://github.com/CSCI305/csci305-ml-lab/)
 Mon. Mar. 12 | Spring Break - No Class! | &nbsp; | &nbsp;
