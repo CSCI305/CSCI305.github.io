@@ -28,7 +28,7 @@ What is the binding time for each of the following in a C or C++ program? State 
 ##### Solution:
 
 * The location in memory of a global static variable => Load Time
-* The code for the `printf` function => Compile Time
+* The code for the `printf` function => Link Time
 * The type of a local variable in a function => Compile Time
 
 ### In Class Exercises
