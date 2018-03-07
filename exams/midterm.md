@@ -214,15 +214,6 @@
             <re> ::= <do> [& <re>]
             <me> ::= '(' <re> ')' | a | b
 
-            <do> ::= <me> { % <me>}
-            <re> ::= <do> [& <re>]
-            <me> ::= '(' <re> ')' | a | b
-            Note: <prodA> ::= <prodB> {op <prodB>} form is left-associative
-
-            <do> ::= [<do> %] <me>
-            <re> ::= <do> {& <do>}
-            <me> ::= '(' <re> ')' | a | b
-            Note: <prodA> ::= <prodB> {op <prodB>} form is right-associative
 
             Any of these 3 solutions would have been fully accepted
 
