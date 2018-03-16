@@ -29,7 +29,7 @@ Mon. Jan. 15 | Martin Luther King Day - No Class! | &nbsp; | &nbsp;
 [Mon. Feb. 5](https://youtu.be/B-dlSRCkdMY) | [Language Systems](lectures/l12_langsys.html) | &nbsp; | &nbsp;
 [Wed. Feb. 7]() | *[Ruby III](lectures/l11_ruby3.html)* | &nbsp; | &nbsp;
 [Fri. Feb. 9](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l13_ml1.html) | [Homework 2](homeworks/hw2.html) | [Homework 1](homeworks/hw1.html)
-[Mon. Feb. 12](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l14_ml1.html) | [ML Lab](https://github.com/CSCI305/csci305-ml-lab/) | [Ruby Lab](homeworks/ruby_lab.html)
+[Mon. Feb. 12](https://youtu.be/pBwpRivrhN4) | ![laptop](images/laptop.png) [ML I](lectures/l14_ml1.html) | [ML Lab](homeworks/ml_lab.html) | [Ruby Lab](homeworks/ruby_lab.html)
 Wed. Feb. 14 | *[Types](lectures/l15_types.html)* | &nbsp; | &nbsp;
 Fri. Feb. 16 | ![laptop](images/laptop.png) [ML II](lectures/l16_ml2.html) | &nbsp; | &nbsp;
 Mon. Feb. 19 | President's Day - No Class! | &nbsp; | &nbsp;
@@ -40,7 +40,7 @@ Wed. Mar. 28 | [Midterm Review](lectures/l20_midtermrev.html) | &nbsp; |
 **Fri. Mar. 2** | [Midterm Exam Solutions](lectures/l20.5_midterm_solutions.html) | &nbsp; | **Midterm Exam (25%)**
 Mon. Feb. 5 | [Midterm Review](lectures/l21_scope.html) | &nbsp; | &nbsp;
 Wed. Mar. 7 | ![laptop](images/laptop.png) [ML IV](lectures/l22_ml4.html) | &nbsp; | &nbsp;
-Fri. Mar. 9 | [Memory Locations](lectures/l23_memoryloc.html) | &nbsp; | [Homework 3](homeworks/hw3.html), [ML Lab](https://github.com/CSCI305/csci305-ml-lab/)
+Fri. Mar. 9 | [Memory Locations](lectures/l23_memoryloc.html) | &nbsp; | [Homework 3](homeworks/hw3.html), [ML Lab](homeworks/ml_lab.html)
 Mon. Mar. 12 | Spring Break - No Class! | &nbsp; | &nbsp;
 Wed. Mar. 14 | Spring Break - No Class! | &nbsp; | &nbsp;
 Fri. Mar. 16 | Spring Break - No Class! | &nbsp; | &nbsp;
@@ -54,7 +54,7 @@ Mon. Apr. 2 | [Object Orientation](lectures/l29_object.html) | [Homework 5](home
 Wed. Apr. 4 | ![laptop](images/laptop.png) [Java III](lectures/l30_java3.html) | &nbsp; | &nbsp;
 Fri. Apr. 6 | [Parameters I](lectures/l31_params1.html) | &nbsp; | &nbsp;
 Mon. Apr. 9 | [Parameters II](lectures/l32_params2.html) | &nbsp; | &nbsp;
-Wed. Apr. 11 | ![laptop](images/laptop.png) [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/) | [Java Lab](https://github.com/CSCI305/csci305-java-lab/)
+Wed. Apr. 11 | ![laptop](images/laptop.png) [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab]() | [Java Lab](https://github.com/CSCI305/csci305-java-lab/)
 Fri. Apr. 13 | ![laptop](images/laptop.png) [Prolog II](lectures/l34_prolog2.html) | &nbsp; | &nbsp;
 Mon. Apr. 16 | [Cost Models](lectures/l35_cost.html) | [Homework 6](homeworks/hw6.html) | [Homework 5](homeworks/hw5.html)
 Wed. Apr. 18 | ![laptop](images/laptop.png) [Prolog II](lectures/l36_prolog2.html) | &nbsp; | &nbsp;
@@ -63,7 +63,7 @@ Mon. Apr. 23 | [Concurrency](lectures/l38_concurrency.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | [Concurrency](lectures/l39_concurrency.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
-**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab/), **Final Exam (25%)**
+**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](), **Final Exam (25%)**
 
 ---
 
