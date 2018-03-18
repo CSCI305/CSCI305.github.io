@@ -2,7 +2,7 @@
 
 ### Parameters Part 2
 
-**Reading:** Webster Ch., Sebasta Ch.
+**Reading:** Webster Ch. 18
 
 ### Instructions
 1. [Watch This Video]() - (:)

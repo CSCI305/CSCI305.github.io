@@ -2,11 +2,11 @@
 
 ### Prolog Part 1
 
-**Reading:** Webster Ch.
+**Reading:** Webster Ch. 19
 
 ### Instructions
-1. [Watch This Video]()
-2. Review the [Lecture Slides]()
+1. [Watch This Video]() - (:)
+2. Review the [Lecture Slides](slides/Lecture33.pdf)
 3. Review the Example Code
 4. Complete the Out of Class Exercise
 5. Check Your Learning

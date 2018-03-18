@@ -2,11 +2,11 @@
 
 ### Memory Management
 
-**Reading:** Webster Ch.
+**Reading:** Webster Ch. 14
 
 ### Instructions
 1. [Watch This Video]() - (:)
-2. Review the [Lecture Slides](slides/Lecture23.pdf)
+2. Review the [Lecture Slides](slides/Lecture26_27.pdf)
 3. Complete the Out of Class Exercise
 4. Check your learning
 5. Attend Class and complete the In Class Exercises

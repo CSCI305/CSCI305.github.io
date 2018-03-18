@@ -8,9 +8,6 @@
 * **Readings:** Webster 12, 14, 16, 18, 21
 * **Assignments:** HW3, HW4, HW5
 
-## Review
-* Prior exams as found on BrightSpace
-
 ## Exam Format
 * True / False
 * Multiple Choice
@@ -34,4 +31,3 @@
   - polymorphism
   - interfaces
   - abstract classes
-*
