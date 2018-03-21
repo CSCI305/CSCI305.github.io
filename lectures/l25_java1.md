@@ -258,3 +258,89 @@ d. A `toString()` instance method so that `x.toString()` returns a `String` repr
 #### Check Your Learning:
 
 ##### Solution:
+
+```java
+public class IntSet {
+   
+   Node root;
+   
+   public IntSet() {
+     root = null;
+   }
+   
+   public void add(int n) {
+     if (root == null) {
+       root = new Node(null, n, null);
+     } else {
+       Node current = root;
+       Node parent = null;
+       while (current != null) {
+         if (current.getValue() == n)
+           return;
+         else if (n < current.getValue()) {
+           parent = current;
+           current = current.getLeft();
+         } else if (n > current.getValue()) {
+           parent = current;
+           current = current.getRight():
+         }
+       }
+   }
+   
+   public String toString() {
+   
+   }
+   
+   public boolean find(int n) {
+     if (root == null)
+       return false;
+     
+     Node current = root;
+     while (current != null) {
+       if (n < current.getValue())
+         current = current.getLeft();
+       else if (n > current.getValue())
+         current = current.getRight();
+       else
+         return true;
+     }
+     
+     return false;
+   }
+}
+
+public class Node {
+  private int data;  
+  private Node left;
+  private Node right;
+  
+  public Node(Node left, int data, Node right) {
+    this.left = left;
+    this.data = data;
+    this.right = right;
+  }
+  
+  public Node getRight() {
+    return right;
+  }
+  
+  public Node getLeft() {
+    return left;
+  }
+  
+  public int getData() {
+    return data;
+  }
+  
+  public void setRight(Node right) {
+    this.right = right;
+  }
+  
+  public void setLeft(Node left) {
+    this.left = left;
+  }
+  
+  public void setData(int data) {
+    this.data = data;
+  }
+}
