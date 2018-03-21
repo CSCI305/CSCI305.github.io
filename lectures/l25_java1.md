@@ -17,7 +17,9 @@
 Using the following classes add the following components:
 
 a. Add a `contains` instance method to the `IntList` class, so that `x.contains(b)` returns `true` if the `int` value `n` occurs in the `IntList x` and returns `false` otherwise.
+
 b. Add an `equals` instance method to the `IntList` class, so that `x.equals(y)` returns `true` if the `IntList x` and the `IntList y` have exactly the same integers in the same order and returns `false` otherwise. It should be true that `x.equals(y)` is always equivalent to `y.equals(x)`. It should also be true that if `x==y` then `x.equals(y)`, although the reverse should not necessarily be true.
+
 c. Add a `reverse` instance method to the `IntList` class, so that `x.reverse()` returns an `IntList` that is the reverse of the `IntList x`. There should be no side effect on `x`.
 
 #### ConsCell.java
@@ -209,6 +211,37 @@ e. Instance methods `minus`, `times`, and `div`, similar to `plus` method descri
 #### Check Your Learning:
 
 ##### Solution:
+
+```java
+public class Int {
+
+  private int value;
+  
+  public Int(int value) {
+    this.value = value;
+  }
+  
+  public String toString() {
+    return value;
+  }
+  
+  public Int plus(Int y) {
+    return new Int(value + y.value);
+  }
+  
+  public Int minus(Int y) {
+    return new Int(value - y.value);
+  }
+  
+  public Int div(Int y) {
+    return new Int(value / y.value);
+  }
+  
+  public Int times(Int y) {
+    return new Int(value * y.value);
+  }
+}
+```
 
 #### Exercise 2
 
