@@ -197,9 +197,13 @@ public class IntList {
 Create a class `Int` with the following components:
 
 a. A field to store an `int` value
+
 b. A constructor so that new `Int(x)` creates an `Int` object that stores the `int` value `x`
+
 c. An instance method `toString` so that `x.toString()` returns the value of `Int` object `x` in `String` form
+
 d. An instance method `plus` so that `x.plus(y)` returns a new `Int` object whose value is the value of the `Int x` plus the value of the `Int y`. There should be no side effects.
+
 e. Instance methods `minus`, `times`, and `div`, similar to `plus` method described above. (The `div` method should perform integer division, like the `/` operator on `int` values.)
 
 #### Check Your Learning:
@@ -211,8 +215,11 @@ e. Instance methods `minus`, `times`, and `div`, similar to `plus` method descri
 In this exercise you will create a class `IntSet` that represents a set of integers. There are many different ways to implement this, but for this exercise you should use a binary search tree (see Exercise 11 in Chapter 11) as the internal data structure for storing the set. The tree need not be balanced. In addition to the actual `IntSet` class, you will need to create an additional class or classes to represent nodes of the binary search tree. The `IntSet` class should have the following components:
 
 a. A constructor so that `new IntSet()` creates an `IntSet` object that represents the empty set.
+
 b. A `find` instance method so that `x.find(n)` returns `true` if `n` is an element of the `IntSet x` and returns `false` otherwise. (The `find` method should not search every node in the tree, but only those nodes that, according to the definition of a binary search tree, might contain `n`.)
+
 c. An `add` instance method so that `x.add(n)` returns no value, but adds the integer `n` top the set `x`. If `n` is already present in `x`, `x` should not be changed.
+
 d. A `toString()` instance method so that `x.toString()` returns a `String` representing the sorted contents of the set. For example, if `x` represents the set `{1,7,2,5}`, `x.toString()` should return `"{1,2,5,7}"`
 
 #### Check Your Learning:
