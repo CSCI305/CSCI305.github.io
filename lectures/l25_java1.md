@@ -219,27 +219,27 @@ e. Instance methods `minus`, `times`, and `div`, similar to `plus` method descri
 public class Int {
 
   private int value;
-  
+
   public Int(int value) {
     this.value = value;
   }
-  
+
   public String toString() {
     return value;
   }
-  
+
   public Int plus(Int y) {
     return new Int(value + y.value);
   }
-  
+
   public Int minus(Int y) {
     return new Int(value - y.value);
   }
-  
+
   public Int div(Int y) {
     return new Int(value / y.value);
   }
-  
+
   public Int times(Int y) {
     return new Int(value * y.value);
   }
@@ -264,13 +264,13 @@ d. A `toString()` instance method so that `x.toString()` returns a `String` repr
 
 ```java
 public class IntSet {
-   
+
    Node root;
-   
+
    public IntSet() {
      root = null;
    }
-   
+
    public void add(int n) {
      if (root == null) {
        root = new Node(null, n, null);
@@ -288,16 +288,34 @@ public class IntSet {
            current = current.getRight():
          }
        }
+
+       if (parent.getValue() > n)
+          parent.setLeft(new Node(null, n, null));
+       else
+          parent.setRight(new Node(null, n, null));
    }
-   
+
    public String toString() {
-   
+      return "{" + toStringRec(root) + "}"
    }
-   
+
+   private String toStringRec(Node n) {
+      if (n == null)
+        return "";
+      else {
+        String value = "";
+        if (n.getRight() != null)
+           value += toStringRec(n.getRight());
+        value += "," + n.getValue();
+        if (n.getLeft() != null)
+           value += "," + toStringRec(n.getLeft());
+      }
+   }
+
    public boolean find(int n) {
      if (root == null)
        return false;
-     
+
      Node current = root;
      while (current != null) {
        if (n < current.getValue())
@@ -307,42 +325,42 @@ public class IntSet {
        else
          return true;
      }
-     
+
      return false;
    }
 }
 
 public class Node {
-  private int data;  
+  private int data;
   private Node left;
   private Node right;
-  
+
   public Node(Node left, int data, Node right) {
     this.left = left;
     this.data = data;
     this.right = right;
   }
-  
+
   public Node getRight() {
     return right;
   }
-  
+
   public Node getLeft() {
     return left;
   }
-  
+
   public int getData() {
     return data;
   }
-  
+
   public void setRight(Node right) {
     this.right = right;
   }
-  
+
   public void setLeft(Node left) {
     this.left = left;
   }
-  
+
   public void setData(int data) {
     this.data = data;
   }
