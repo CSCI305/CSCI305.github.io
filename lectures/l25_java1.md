@@ -5,7 +5,10 @@
 **Reading:** Webster Ch. 13
 
 ### Instructions
-1. [Watch This Video]() - (:)
+1. [Watch This Video](https://youtu.be/eBcAtgrlNZY) - (7:47)
+2. [Watch This Video](https://youtu.be/G-Q5v6MgISs) - (37:31)
+3. [Watch This Video](https://youtu.be/rrUKx1SDknk) - (16:17)
+4. [Watch This Video](https://youtu.be/fWd1pn6o4YQ) - (18:41)
 2. Review the [Lecture Slides](slides/Lecture25.pdf)
 3. Review the Example Code
 4. Complete the Out of Class Exercise
