@@ -20,7 +20,9 @@
 Using the following classes add the following components:
 
 a. Add a `contains` instance method to the `IntList` class, so that `x.contains(b)` returns `true` if the `int` value `n` occurs in the `IntList x` and returns `false` otherwise.
+
 b. Add an `equals` instance method to the `IntList` class, so that `x.equals(y)` returns `true` if the `IntList x` and the `IntList y` have exactly the same integers in the same order and returns `false` otherwise. It should be true that `x.equals(y)` is always equivalent to `y.equals(x)`. It should also be true that if `x==y` then `x.equals(y)`, although the reverse should not necessarily be true.
+
 c. Add a `reverse` instance method to the `IntList` class, so that `x.reverse()` returns an `IntList` that is the reverse of the `IntList x`. There should be no side effect on `x`.
 
 #### ConsCell.java
@@ -200,24 +202,148 @@ public class IntList {
 Create a class `Int` with the following components:
 
 a. A field to store an `int` value
+
 b. A constructor so that new `Int(x)` creates an `Int` object that stores the `int` value `x`
+
 c. An instance method `toString` so that `x.toString()` returns the value of `Int` object `x` in `String` form
+
 d. An instance method `plus` so that `x.plus(y)` returns a new `Int` object whose value is the value of the `Int x` plus the value of the `Int y`. There should be no side effects.
+
 e. Instance methods `minus`, `times`, and `div`, similar to `plus` method described above. (The `div` method should perform integer division, like the `/` operator on `int` values.)
 
 #### Check Your Learning:
 
 ##### Solution:
 
+```java
+public class Int {
+
+  private int value;
+  
+  public Int(int value) {
+    this.value = value;
+  }
+  
+  public String toString() {
+    return value;
+  }
+  
+  public Int plus(Int y) {
+    return new Int(value + y.value);
+  }
+  
+  public Int minus(Int y) {
+    return new Int(value - y.value);
+  }
+  
+  public Int div(Int y) {
+    return new Int(value / y.value);
+  }
+  
+  public Int times(Int y) {
+    return new Int(value * y.value);
+  }
+}
+```
+
 #### Exercise 2
 
 In this exercise you will create a class `IntSet` that represents a set of integers. There are many different ways to implement this, but for this exercise you should use a binary search tree (see Exercise 11 in Chapter 11) as the internal data structure for storing the set. The tree need not be balanced. In addition to the actual `IntSet` class, you will need to create an additional class or classes to represent nodes of the binary search tree. The `IntSet` class should have the following components:
 
 a. A constructor so that `new IntSet()` creates an `IntSet` object that represents the empty set.
+
 b. A `find` instance method so that `x.find(n)` returns `true` if `n` is an element of the `IntSet x` and returns `false` otherwise. (The `find` method should not search every node in the tree, but only those nodes that, according to the definition of a binary search tree, might contain `n`.)
+
 c. An `add` instance method so that `x.add(n)` returns no value, but adds the integer `n` top the set `x`. If `n` is already present in `x`, `x` should not be changed.
+
 d. A `toString()` instance method so that `x.toString()` returns a `String` representing the sorted contents of the set. For example, if `x` represents the set `{1,7,2,5}`, `x.toString()` should return `"{1,2,5,7}"`
 
 #### Check Your Learning:
 
 ##### Solution:
+
+```java
+public class IntSet {
+   
+   Node root;
+   
+   public IntSet() {
+     root = null;
+   }
+   
+   public void add(int n) {
+     if (root == null) {
+       root = new Node(null, n, null);
+     } else {
+       Node current = root;
+       Node parent = null;
+       while (current != null) {
+         if (current.getValue() == n)
+           return;
+         else if (n < current.getValue()) {
+           parent = current;
+           current = current.getLeft();
+         } else if (n > current.getValue()) {
+           parent = current;
+           current = current.getRight():
+         }
+       }
+   }
+   
+   public String toString() {
+   
+   }
+   
+   public boolean find(int n) {
+     if (root == null)
+       return false;
+     
+     Node current = root;
+     while (current != null) {
+       if (n < current.getValue())
+         current = current.getLeft();
+       else if (n > current.getValue())
+         current = current.getRight();
+       else
+         return true;
+     }
+     
+     return false;
+   }
+}
+
+public class Node {
+  private int data;  
+  private Node left;
+  private Node right;
+  
+  public Node(Node left, int data, Node right) {
+    this.left = left;
+    this.data = data;
+    this.right = right;
+  }
+  
+  public Node getRight() {
+    return right;
+  }
+  
+  public Node getLeft() {
+    return left;
+  }
+  
+  public int getData() {
+    return data;
+  }
+  
+  public void setRight(Node right) {
+    this.right = right;
+  }
+  
+  public void setLeft(Node left) {
+    this.left = left;
+  }
+  
+  public void setData(int data) {
+    this.data = data;
+  }
+}
