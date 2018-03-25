@@ -12,6 +12,7 @@
 5. Check Your Learning
 6. Attend Class and Complete the In Class Exercises
 7. Check Your Learning
+8. [Example Code](https://github.com/CSCI305/csci305-java-examples/tree/master/src/main/java/csci305/examples/java3)
 
 ### Out of Class Exercise
 
