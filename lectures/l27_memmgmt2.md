@@ -17,7 +17,7 @@
 #### Exercise 1
 Older language systems often managed one heap and one stack together in the same big block of memory. Embedded systems are sometimes still implemented this way. The heap lives at the low end of the block and the stack at the high end. The memory manager prevents them from running into each other, but does not use a fixed partition. A program can use a lot of stack space and a little heap, or a lot of heap space and a little stack, as it chooses.
 
-Implement a `MemoryManager` class that combines the features of the `StackManager` and the `HeapManager` classes from the chapter. The following links contain the code code for the [`StackManager`](https://github.com/CSCI305/csci305-java-examples/blob/master/src/main/java/csci305/memmgmt/StackManager.java) and [`HeapManager`](https://github.com/CSCI305/csci305-java-examples/blob/master/src/main/java/csci305/memmgmt/HeapManager.java). Like them, it should have a constructor that takes as a parameter the meory array to be managed:
+Implement a `MemoryManager` class that combines the features of the `StackManager` and the `HeapManager` classes from the chapter. The following links contain the code code for the [`StackManager`](https://github.com/CSCI305/csci305-java-examples/blob/master/src/main/java/csci305/memmgmt/StackManager.java) and [`HeapManager`](https://github.com/CSCI305/csci305-java-examples/blob/master/src/main/java/csci305/memmgmt/HeapManager.java). Like them, it should have a constructor that takes as a parameter the memory array to be managed:
 
 ```java
 public MemoryManager(int[] initialMemory)...
