@@ -58,6 +58,7 @@ Consider a block-structured language implemented using nesting links. Suppose a 
 #### Check Your Learning:
 
 ##### Solution:
+Check the nth level activation record for any locally defined variables or parameters. If none matching the required variable are found, then recursively check the activation record pointed to by the nesting link. If the nesting link is null, then an error has occurred.
 
 #### Exercise 2
 Write the shortest ML function you can that would not work correctly if implemented using statically allocated activation records. Explain why it would fail.
@@ -65,6 +66,10 @@ Write the shortest ML function you can that would not work correctly if implemen
 #### Check Your Learning:
 
 ##### Solution:
+```ml
+fun x 1 = 1
+|   x n = x (n - 1);
+```
 
 #### Exercise 3
 For each of the following ML functions, could the activation record for the function be deallocated as soon as the function returns? Explain why or why not.
@@ -75,3 +80,5 @@ For each of the following ML functions, could the activation record for the func
 #### Check Your Learning:
 
 ##### Solution:
+- `fun f x = x + 1;` - Yes, as there is no reference to the function or its variables outside of the use in the provided function.
+- `fun f x = map ~ x` - Yes, as the execution of map will be evaluated before the function f is complete.

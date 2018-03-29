@@ -98,6 +98,96 @@ public class ANode {
 
 ##### Solution:
 
+```java
+class AList<K, V> {
+    private ANode head = null;
+
+    public V associate(K key, V value) {
+        ANode<K, V> n = nodeLookup(key);
+        V oldValue;
+
+        if (n != null) {
+            oldValue = n.getValue();
+            n.setValue(value);
+        } else {
+            n = new ANode(key, value, head);
+            head = n;
+            oldValue = null;
+        }
+        return oldValue;
+    }
+
+    public V find(K key) {
+        ANode<K, V> n = nodeLookup(key);
+        return (n == null) ? null : n.getValue();
+    }
+
+    private ANode<K, V> nodeLookup(K key) {
+        ANode<K, V> n = head;
+        while (n != null && !n.getKey().equals(key)) {
+            n = n.getLink();
+        }
+
+        return n;
+    }
+
+    public int size() {
+        ANode<K, V> n = head;
+        int length = 0;
+
+        while (n != null) {
+            n = n.getLink();
+            length++;
+        }
+
+        return length;
+    }
+
+    public void test() {
+        AList<String, Integer> list = new AList<>();
+        list.associate("Hello", 1);
+
+        ListIterator<K, V> iter = getIterator();
+        while (iter.hasNext()) {
+            K key = iter.next();
+            this.find(key);
+        }
+    }
+
+    public ListIterator<K, V> getIterator() {
+        return new AListIterator<>(head);
+    }
+}
+
+class ANode<K, V> {
+    private K key;
+    private V value;
+    private ANode<K, V> link;
+
+    public ANode(K k, V v, ANode<K, V> li) {
+        key = k;
+        value = v;
+        link = li;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
+    public void setValue(V v) {
+        value = v;
+    }
+
+    public ANode<K, V> getLink() {
+        return link;
+    }
+}
+```
+
 #### Exercise 2
 
 Having solved the previous exercise we now will create an iterator for this data structure. Define an interface called `ListIterator` which defines the following interface.
@@ -110,3 +200,32 @@ Once this is done, implement this interface in a class called `AListIterator` wh
 #### Check Your Learning:
 
 ##### Solution:
+```java
+interface ListIterator<K, V> {
+
+    boolean hasNext();
+
+    K next();
+}
+
+class AListIterator<K, V> implements ListIterator<K, V> {
+
+    ANode<K, V> next;
+
+    public AListIterator(ANode<K, V> node) {
+        next = node;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return next != null;
+    }
+
+    @Override
+    public K next() {
+        K key = next.getKey();
+        next = next.getLink();
+        return key;
+    }
+}
+```
