@@ -29,66 +29,149 @@ Work on Exercise 17.2 from the book (It's a bit too long to put here)
 The behavior of the `try` statement in Java can be rather complicated, since the `try` block, the `catch` block, and the `finally` block can all finish their execution in different ways. For each of the following scenarios, what happens? Write simple test programs in Java to demonstrate the answers to the following questions about the behavior of `finally`. Include your program, its output, and your conclusions for each part.
 
 1. The `try` block completes normally, and the `finally` block completes normally.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+        } catch (Exception e) {
+            System.out.println("3");
+        } finally {
+            System.out.println("4");
+        }
+```
+Output:
+```
+1
+2
+4
+```
+
+As expected the finally block executes.
 <br/>
 2. The `try` block stops by throwing an exception that is not caught, and the `finally` block stops by throwing a *different* exception.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+            throw new RuntimeException();
+        } catch (NullPointerException e) {
+            System.out.println("3");
+        } finally {
+            System.out.println("4");
+            throw new ArithmeticException();
+        }
+```
+Output:
+```
+1
+2
+4
+Exception in thread "main" java.lang.ArithmeticException
+	at TryCatchEx.main(TryCatchEx.java:12)
+```
+
+As expected the only exception propagated was the ArithmeticException.
 <br/>
 3. The `try` block stops by throwing an exception that is caught, the relevant catch block completes normally, and the `finally` block stops by throwing an exception.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+            throw new RuntimeException();
+        } catch (RuntimeException e) {
+            System.out.println("3");
+        } finally {
+            System.out.println("4");
+            throw new ArithmeticException();
+        }
+```
+
+Output:
+```
+1
+2
+3
+4
+Exception in thread "main" java.lang.ArithmeticException
+	at TryCatchEx.main(TryCatchEx.java:12)
+```
+
+As expected the try, catch, and finally executed in order with the last line execute the ArithmeticException being thrown.
 <br/>
 4. The `try` block stops by throwing an exception that is caught, the relevant `catch` block stops by throwing a *different* exception, and the `finally` block stops by executing an explicit `return` statement.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+            throw new RuntimeException();
+        } catch (RuntimeException e) {
+            System.out.println("3");
+            throw new IllegalArgumentException();
+        } finally {
+            System.out.println("4");
+            return;
+        }
+```
+
+Output:
+```
+1
+2
+3
+4
+```
+
 <br/>
 5. The `try` block stops by throwing an exception that is caught, the relevant `catch` block stops by executing an explicit `return` statement, and the `finally` block stops by executing an explicit `return` statement, returning a *different* value.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+            throw new RuntimeException();
+        } catch (RuntimeException e) {
+            System.out.println("3");
+            return 0;
+        } finally {
+            System.out.println("4");
+            return -1;
+        }
+```
+
+Output:
+```
+1
+2
+3
+4
+-1
+```
+
+As expected the actual returned value was that returned from the finally block, as finally is always executed.
 <br/>
 6. The `try` block stops by executing an explicit `return` statement, and the `finally` block stops by throwing an exception.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+```java
+        System.out.println("1");
+        try {
+            System.out.println("2");
+            return 0;
+        } catch (RuntimeException e) {
+            System.out.println("3");
+            return 0;
+        } finally {
+            System.out.println("4");
+            throw new ArithmeticException();
+        }
+```
 
-#### Check Your Learning:
+Output:
+```
+1
+2
+4
+Exception in thread "main" java.lang.ArithmeticException
+	at TryCatchEx.x(TryCatchEx.java:17)
+	at TryCatchEx.main(TryCatchEx.java:4)
+```
 
-##### Solution:
+As expected the last line execute was the throwing of the ArithmeticException and the two return statements were disregarded.
+<br/>
