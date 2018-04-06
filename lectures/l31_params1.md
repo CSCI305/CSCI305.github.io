@@ -6,4 +6,4 @@
 
 ### Instructions
 1. Review the [Lecture Slides](slides/Lecture31_32.pdf)
-2. Attend Class and complete
+2. Attend Class
