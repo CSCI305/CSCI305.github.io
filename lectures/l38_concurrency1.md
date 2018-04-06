@@ -1,12 +1,10 @@
 # CSCI 305: Programming Languages
 
-### Formal Semantics
-
-**Reading:** Webster Ch. 23
+### Concurrency
 
 ### Instructions
 1. [Watch This Video]() - (:)
-2. Review the [Lecture Slides](slides/Lecture38.pdf)
+2. Review the [Lecture Slides](slides/Lecture38_39.pdf)
 3. Complete the Out of Class Exercise
 4. Check your learning
 5. Attend Class and complete the In Class Exercises

@@ -59,8 +59,8 @@ Fri. Apr. 13 | ![laptop](images/laptop.png) [Prolog II](lectures/l34_prolog2.htm
 Mon. Apr. 16 | [Cost Models](lectures/l35_cost.html) | [Homework 6](homeworks/hw6.html) | [Homework 5](homeworks/hw5.html)
 Wed. Apr. 18 | ![laptop](images/laptop.png) [Prolog II](lectures/l36_prolog2.html) | &nbsp; | &nbsp;
 Fri. Apr. 20 | ![laptop](images/laptop.png) [Prolog III](lectures/l37_prolog3.html) | &nbsp; | &nbsp;
-Mon. Apr. 23 | [Formal Semantics](lectures/l38_formal_semantics.html) | &nbsp; | &nbsp;
-Wed. Apr. 25 | [Concurrency](lectures/l39_concurrency.html) | &nbsp; | &nbsp;
+Mon. Apr. 23 | [Formal Semantics](lectures/l38_concurrency1.html) | &nbsp; | &nbsp;
+Wed. Apr. 25 | [Concurrency](lectures/l39_concurrency2.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
 **Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](), **Final Exam (25%)**
