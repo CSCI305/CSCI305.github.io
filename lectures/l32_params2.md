@@ -44,21 +44,21 @@ For each of these two different interpretations of by-result parameter passing, 
 #### Exercise 1
 An important detail of by-result and value-result parameter passing is the *order* in which the final values of the formal parameters are written back to the actual parameters. A method `f(a, b)` might write back first `a` then `b`, or first `b` then `a`. Or the language specification might leave the order unspecified, leaving it up to the language system. The order can make a significant difference.
 
-Write two Java-like methods `f` and `g` tha illustrate this distinction. Your method `f` should call only `g`, passing parameters by value-result. Your `g` method should make no calls. Your methods should produce different results (that is, different final values in the variables of `f`) depending on the order in which the value-result parameters of `g` are written back. Explain the results that two different write-back orders would produce for your example.
+Write two Java-like methods `f` and `g` that illustrate this distinction. Your method `f` should call only `g`, passing parameters by value-result. Your `g` method should make no calls. Your methods should produce different results (that is, different final values in the variables of `f`) depending on the order in which the value-result parameters of `g` are written back. Explain the results that two different write-back orders would produce for your example.
 
 #### Check Your Learning:
 
 ##### Solution:
 
 #### Exercise 2
-Make an experiment with the ML language system that demonstrates that ML does not pass parameters by name. Show the results of your experiment, and explain what results by-name parameter passwing would have given.
+Make an experiment with the ML language system that demonstrates that ML does not pass parameters by name. Show the results of your experiment, and explain what results by-name parameter passing would have given.
 
 #### Check Your Learning:
 
 ##### Solution:
 
 #### Exercise 3
-Mazke an experiment withthe ML language system that demonstrates that ML does not recopy lists when they are passed as parameters. (*Hint:* The only way to tell the difference, without side effects, is by timing.) Show the results of your experiment, and explain what results you would expect if ML recopied list parameters.
+Make an experiment with the ML language system that demonstrates that ML does not recopy lists when they are passed as parameters. (*Hint:* The only way to tell the difference, without side effects, is by timing.) Show the results of your experiment, and explain what results you would expect if ML recopied list parameters.
 
 #### Check Your Learning:
 
