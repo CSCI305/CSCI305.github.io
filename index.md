@@ -54,7 +54,7 @@ Mon. Apr. 2 | [Object Orientation](lectures/l29_object.html) | [Homework 5](home
 Wed. Apr. 4 | ![laptop](images/laptop.png) [Java III](lectures/l30_java3.html) | &nbsp; | &nbsp;
 Fri. Apr. 6 | [Parameters I](lectures/l31_params1.html) | &nbsp; | &nbsp;
 Mon. Apr. 9 | [Parameters II](lectures/l32_params2.html) | &nbsp; | &nbsp;
-Wed. Apr. 11 | ![laptop](images/laptop.png) [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab]() | [Java Lab](https://github.com/CSCI305/csci305-java-lab/)
+Wed. Apr. 11 | ![laptop](images/laptop.png) [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab) | [Java Lab](https://github.com/CSCI305/csci305-java-lab/)
 Fri. Apr. 13 | ![laptop](images/laptop.png) [Prolog II](lectures/l34_prolog2.html) | &nbsp; | &nbsp;
 Mon. Apr. 16 | [Cost Models](lectures/l35_cost.html) | [Homework 6](homeworks/hw6.html) | [Homework 5](homeworks/hw5.html)
 Wed. Apr. 18 | ![laptop](images/laptop.png) [Prolog II](lectures/l36_prolog2.html) | &nbsp; | &nbsp;
@@ -63,7 +63,7 @@ Mon. Apr. 23 | [Concurrency](lectures/l38_concurrency1.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | ![laptop](images/laptop.png) [Concurrency](lectures/l39_concurrency2.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
-**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](), **Final Exam (25%)**
+**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab), **Final Exam (25%)**
 
 ---
 
