@@ -19,22 +19,36 @@
 In the following exercises you should implement sets as lists, where each element of a set appears exactly once in its list, but in no particular order. Do not assume you can sort the lists. Do assume that input lists have no duplicate elements, and do guarantee that output lists have no duplicate elements.
 
 #### Exercise 1
-Define the `isMember` predicate so that `isMember(X, Y)` syas that element `X` is a member of set `Y`. Do not use the predefined list predicates.
+Define the `isMember` predicate so that `isMember(X, Y)` says that element `X` is a member of set `Y`. Do not use the predefined list predicates.
 
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+    isMember(X, [X|_]).
+    isMember(X, [_|Tail]) :- isMember(X,Tail).
+```
 
 #### Exercise 2
-Define the `isUnion` predicate so that `isUnion(X, Y, Z)` says that the union of `X` and `Y` is `Z`. Do not use the predefined list predicates. Your predicate may choose a fixed order for `Z`. If you query `isUnion([1,2], [3], Z)` it should find a binding for `Z`, but it need not succeed on both `isUnion([1], [2], [1,2])` and `isUnion([1], [2], [2, 1])`. Your prediate need not work well when `X` or `Y` are unbound variables.
+Define the `isUnion` predicate so that `isUnion(X, Y, Z)` says that the union of `X` and `Y` is `Z`. Do not use the predefined list predicates. Your predicate may choose a fixed order for `Z`. If you query `isUnion([1,2], [3], Z)` it should find a binding for `Z`, but it need not succeed on both `isUnion([1], [2], [1,2])` and `isUnion([1], [2], [2, 1])`. Your predicate need not work well when `X` or `Y` are unbound variables.
 
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+    isUnion([Head|Tail],Y,Z) :- isMember(Head,Y), isUnion(Tail,Y,Z).
+    isUnion([Head|Tail],Y,[X|Z]) :- not(isMember(Head,Y)), isUnion(Tail,Y,Z).
+    isUnion([],Y,Y).
+```
 
 #### Exercise 3
-Define the `isIntersection` predicate so that `isIntersection(X, Y, Z)` syas that the intersection of `X` and `Y` is `Z`. Do not use the predefined list predicates. Your predicate may choose a fixed order for `Z`. Your predicate need not work well when `X` or `Z` are unbound variables.
+Define the `isIntersection` predicate so that `isIntersection(X, Y, Z)` says that the intersection of `X` and `Y` is `Z`. Do not use the predefined list predicates. Your predicate may choose a fixed order for `Z`. Your predicate need not work well when `X` or `Z` are unbound variables.
 
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+    isIntersection([Head|Tail],Y,[Head|Z]) :- isMember(Head,Y), isIntersection(Tail,Y,Z).
+    isIntersection([Head|Tail],Y,Z) :- not(isMember(Head,Y)), isIntersection(Tail,Y,Z).
+    isIntersection([],_,[]).
+```
