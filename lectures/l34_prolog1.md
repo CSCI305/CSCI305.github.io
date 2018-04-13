@@ -14,28 +14,33 @@
 6. Attend Class and Complete the In Class Exercises
 7. Check Your Learning
 
-### Out of Class Exercise
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
-
 ### In Class Exercises
+Define your answers to the following exercises in terms of the base relations `parent(X,Y)`, `female(X)`, and `male(X)`. To test your code, define some `parent` facts like those in the example code, along with appropriate `female` and `male` facts. But your solutions should be general enough to work with any set of such facts.
 
 #### Exercise 1
+Define a `mother` predicate so that `mother(X,Y)` says that `X` is the mother of `Y`.
 
 #### Check Your Learning:
-
-##### [Solution Video]() - (:)
 
 ##### Solution:
 
 #### Exercise 2
+Define a `father` predicate so that `father(X,Y)` says that `X` is the father of `Y`.
 
 #### Check Your Learning:
 
-##### [Solution Video]() - (:)
+##### Solution:
+
+#### Exercise 3
+Define a `sister` predicate so that `sister(X,Y)` says that `X` is the sister of `Y`. Be careful, a person cannot be her own sister.
+
+#### Check Your Learning:
+
+##### Solution:
+
+#### Exercise 4
+Define a `grandson` predicate so that `grandson(X, Y)` says that `X` is the grandson of `Y`.
+
+#### Check Your Learning:
 
 ##### Solution:
