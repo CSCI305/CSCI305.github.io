@@ -13,18 +13,12 @@
 
 ### In Class Exercises
 
-#### Exercise 1
+#### Exercise
+Add the following featurs to the adventure game from the prolog example code linked above:
 
-#### Check Your Learning:
+* There is a gate between the fork in the path and the mountaintop. The gate is a separate location; that is, the player must move from `at(you,fork)` to `at(you,gate)` and then to `at(you,mountaintop)`.
+* To move forward throught the gate the player must first unlock it with a key.
+* The key is somewhere in the maze. The player must find it and explicitly pick it up.
+* If the player tries to pass through the gate while still holding the key, he or she is killed by lightning. (To get the treasure, the player must first open the gate, then put down the key, and then pass through.)
 
-##### [Solution Video]() - (:)
-
-##### Solution:
-
-#### Exercise 2
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
+**Note**: Part of your implementation should be a general way for the player to pick things up, carry them, and put them down. Design your solution so that it would be easy to add additional objects for the player to pick up and put down.
