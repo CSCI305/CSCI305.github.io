@@ -15,17 +15,22 @@
 ### In Class Exercises
 
 #### Exercise 1
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
+Define the prediate `max(X, Y, Z)` that takes numbers `X` and `Y` and unifies `Z` with the maximum of the two.
 
 ##### Solution:
 
 #### Exercise 2
+Define the predicate `subsetsum(L, Sum, SubL)` that takes a list `L` of numbers and a number `Sum` and unifies `SubL` with a subsequence of `L` such that the sum of the numbers in `SubL` is `Sum`. For example:
 
-#### Check Your Learning:
+```
+?- subsetsum([1, 2, 5, 3, 2], 5, SubSet).
+SubSet = [1,2,2]  ;
+SubSet = [2,3]  ;
+SubSet = [5]  ;
+SubSet = [3,2]  ;
+false.
+```
 
-##### [Solution Video]() - (:)
+Your predicate should assume that `L` and `Sum` are instantiated, and should succeed once for each subsequence of `L` and adds up to `Sum`.
 
 ##### Solution:
