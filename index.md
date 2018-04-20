@@ -57,7 +57,7 @@ Mon. Apr. 9 | [Parameters II](lectures/l32_params2.html) | &nbsp; | &nbsp;
 Wed. Apr. 11 | ![laptop](images/laptop.png) [Prolog I](lectures/l33_prolog1.html) | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab) | [Java Lab](https://github.com/CSCI305/csci305-java-lab/)
 Fri. Apr. 13 | ![laptop](images/laptop.png) [Prolog I](lectures/l34_prolog1.html) | &nbsp; | &nbsp;
 Mon. Apr. 16 | ![laptop](images/laptop.png) [Prolog II](lectures/l35_prolog2.html) | [Homework 6](homeworks/hw6.html) | [Homework 5](homeworks/hw5.html)
-Wed. Apr. 18 | [Prolog II](lectures/l36_cost.html) | &nbsp; | &nbsp;
+Wed. Apr. 18 | [Cost Models](lectures/l36_cost.html) | &nbsp; | &nbsp;
 Fri. Apr. 20 | ![laptop](images/laptop.png) [Prolog III](lectures/l37_prolog3.html) | &nbsp; | &nbsp;
 Mon. Apr. 23 | [Concurrency](lectures/l38_concurrency1.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | ![laptop](images/laptop.png) [Concurrency](lectures/l39_concurrency2.html) | &nbsp; | &nbsp;

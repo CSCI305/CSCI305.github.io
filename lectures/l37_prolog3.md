@@ -5,21 +5,12 @@
 **Reading:** Webster Ch. 22
 
 ### Instructions
-1. [Watch This Video]() - (:)
-2. Review the [Lecture Slides](slides/Lecture37.pdf)
-3. Review the Example Code
-4. Complete the Out of Class Exercise
-5. Check Your Learning
-6. Attend Class and Complete the In Class Exercises
-7. Check Your Learning
-
-### Out of Class Exercise
-
-#### Check Your Learning:
-
-##### [Solution Video]() - (:)
-
-##### Solution:
+1. [Watch This Video](https://youtu.be/I3VKlYv4OWw) - (43:16)
+2. [Watch This Video](https://youtu.be/LQkQlWfZzac) - (15:31)
+3. Review the [Lecture Slides](slides/Lecture37.pdf)
+4. Review the Example Code
+5. Attend Class and Complete the In Class Exercises
+6. Check Your Learning
 
 ### In Class Exercises
 
