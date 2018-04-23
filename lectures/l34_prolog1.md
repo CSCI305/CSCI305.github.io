@@ -23,6 +23,9 @@ Define a `mother` predicate so that `mother(X,Y)` says that `X` is the mother of
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+mother(X, Y) :- female(X), parent(X, Y).
+```
 
 #### Exercise 2
 Define a `father` predicate so that `father(X,Y)` says that `X` is the father of `Y`.
@@ -30,6 +33,9 @@ Define a `father` predicate so that `father(X,Y)` says that `X` is the father of
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+father(X, Y) :- male(X), parent(X, Y).
+```
 
 #### Exercise 3
 Define a `sister` predicate so that `sister(X,Y)` says that `X` is the sister of `Y`. Be careful, a person cannot be her own sister.
@@ -37,6 +43,9 @@ Define a `sister` predicate so that `sister(X,Y)` says that `X` is the sister of
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+sister(X, Y) :- parent(Z, X), parent(Z, Y), female(X), not(X = Y).
+```
 
 #### Exercise 4
 Define a `grandson` predicate so that `grandson(X, Y)` says that `X` is the grandson of `Y`.
@@ -44,3 +53,6 @@ Define a `grandson` predicate so that `grandson(X, Y)` says that `X` is the gran
 #### Check Your Learning:
 
 ##### Solution:
+```prolog
+grandson(X, Y) :- parent(X, F), parent(F, Y), male(Y).
+```

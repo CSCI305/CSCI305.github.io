@@ -17,7 +17,7 @@
 ### Out of Class Exercise
 
 #### Exercise
-One important question about by-result parameter passing that was not mentioned is this: when does the language system compute the lvalue of the actural parameter? (The lvalue of the actual parameter is the memory location to which the final value of the formal parameter is written.) You might have assumed that this would be computed, like a by-reference parameter, before the called method executes. But since it is not neeeded until the called method returns, its computation could be delayed until it is needed, like a by-name parameter. Ada does it the early way, while Algol W does it at the last minute.
+One important question about by-result parameter passing that was not mentioned is this: when does the language system compute the lvalue of the actual parameter? (The lvalue of the actual parameter is the memory location to which the final value of the formal parameter is written.) You might have assumed that this would be computed, like a by-reference parameter, before the called method executes. But since it is not needed until the called method returns, its computation could be delayed until it is needed, like a by-name parameter. Ada does it the early way, while Algol W does it at the last minute.
 
 Here is an example that illustrates the difference:
 ```java
@@ -33,11 +33,14 @@ void g(by-reference int i, by-result int j) {
 }
 ```
 
-For each of these two different interpretations of by-result parameter passing, explain what happens when `f` calls `g`. In particular, say exactly what happpens when any change is made to `i` or `A`.
+For each of these two different interpretations of by-result parameter passing, explain what happens when `f` calls `g`. In particular, say exactly what happens when any change is made to `i` or `A`.
 
 #### Check Your Learning:
 
 ##### Solution:
+In the first way, the value of `i` is initially 0 and thus the by-result parameter `j` memory location will be at `A[0]` thus, whatever the result of `g` it will be stored to `A[0]`
+
+In the second interpretation, the memory location of `j` will not be known until it is needed. Thus, if there is a change to the incoming value of `i` (in `g`) that will change the index of `A` to which `j` will be stored.
 
 ### In Class Exercises
 
@@ -49,6 +52,17 @@ Write two Java-like methods `f` and `g` that illustrate this distinction. Your m
 #### Check Your Learning:
 
 ##### Solution:
+```java
+public void f() {
+  int i = 0;
+  int j = 1;
+  g(i, j)
+}
+
+public void g(value-result int a, value-result int b) {
+    a = b++
+}
+```
 
 #### Exercise 2
 Make an experiment with the ML language system that demonstrates that ML does not pass parameters by name. Show the results of your experiment, and explain what results by-name parameter passing would have given.
@@ -56,6 +70,9 @@ Make an experiment with the ML language system that demonstrates that ML does no
 #### Check Your Learning:
 
 ##### Solution:
+``` ml
+
+```
 
 #### Exercise 3
 Make an experiment with the ML language system that demonstrates that ML does not recopy lists when they are passed as parameters. (*Hint:* The only way to tell the difference, without side effects, is by timing.) Show the results of your experiment, and explain what results you would expect if ML recopied list parameters.
@@ -63,3 +80,6 @@ Make an experiment with the ML language system that demonstrates that ML does no
 #### Check Your Learning:
 
 ##### Solution:
+```ml
+fun [] =
+```

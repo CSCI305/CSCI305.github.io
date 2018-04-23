@@ -105,11 +105,112 @@ public class FormattedInteger {
 }
 ```
 
-Although this code works, it is ugly and has two instances of the [`Switch Statements` Code Smell](https://sourcemaking.com/refactoring/smells/switch-statements). It is not written in a fully object-oriented style. It has no comments (another type of code smell). Your job is to replace it with a more beautiful implementation of the smae thing, using three separate classes for the three different behaviors of `FormattedInteger`. Your implementation must use a fully object-oriented style (eliminating the enumerations): "factor out" redundant code and variables into superclasses (aka [`Refactoring`](www.refactoring.com)), as necessary; provide polymorphism, using a new `FormattedInteger` as a common superclass or interface for the three classes; be generally beautiful, neat , and well commented; and still work.
+Although this code works, it is ugly and has two instances of the [`Switch Statements` Code Smell](https://sourcemaking.com/refactoring/smells/switch-statements). It is not written in a fully object-oriented style. It has no comments (another type of code smell). Your job is to replace it with a more beautiful implementation of the same thing, using three separate classes for the three different behaviors of `FormattedInteger`. Your implementation must use a fully object-oriented style (eliminating the enumerations): "factor out" redundant code and variables into superclasses (aka [`Refactoring`](www.refactoring.com)), as necessary; provide polymorphism, using a new `FormattedInteger` as a common superclass or interface for the three classes; be generally beautiful, neat , and well commented; and still work.
 
 #### Check Your Learning:
 
 ##### Solution:
+```java
+public abstract class FormattedInteger {
+  private int value;
+  private int format;
+
+  public FormattedInteger() {
+  }
+
+  public int getInt() {
+    return value;
+  }
+
+  public abstract String getString();
+
+  public void setInt(int value) {
+    this.value = value;
+  }
+
+  public abstract void setString(String s);
+}
+
+public class HexFormattedInteger extends FormattedInteger {
+
+  public HexFormattedInteger() {}
+
+  @Override
+  public String getString() {
+    return "0x" + Integer.toHexString(value);
+  }
+
+  @Override
+  public void setString(String s) {
+    if (!s.startsWith("0x"))
+      throw new IllegarArgumentException("Hex strings must start with \"0x\".");
+    int i = 2;
+    while (i < s.length()) {
+      char c = s.charAt(i);
+      if (!(('0' <= c && c <= '9') ||
+            ('a' <= c && c <= 'f') ||
+            ('A' <= c && c <= 'F')))
+        throw new IllegalArgumentException("Hex digits are 0..9 and A..F (or a..f).");
+      i++;
+    }
+    value = (int) Long.parseLong(s.substring(2), 16);
+  }
+}
+
+public class OctalFormattedInteger extends FormattedInteger {
+
+  public OctalFormattedInteger() {}
+
+  @Override
+  public String getString() {
+    return "0" + Integer.toOctalString(value);
+  }
+
+  @Override
+  public void setString(String s) {
+    if (s.charAt(0) != '0')
+      throw new IllegalArgumentException("Octal requires a leading zero.");
+    int i = 0;
+    while (i < s.length()) {
+      char c = s.charAt(i);
+      if (!('0' <= c && c <= '7'))
+        throw new IllegalArgumentException("Octal digits must be 0..7");
+      i++;
+    }
+    value = (int) Long.parseLong(s, 8);
+  }
+}
+
+public class DecimalFormattedInteger extends FormattedInteger {
+  public DecimalFormattedInteger() {}
+
+  @Override
+  public String getString() {
+    return Integer.toString(value);
+  }
+
+  @Override
+  public void setString(String s) {
+    boolean negative = false;
+    if (s.charAt(0) == '-') {
+      negative = true;
+      s = s.substring(1);
+    }
+    else if (s.charAt(0) < '0' || s.charAt(0) > '9')
+      throw new IllegalArgumentException("First char must be a decimal digit or a minus sign.");
+    int i = 0;
+    while (i < s.length()) {
+      char c = s.charAt(i);
+      if (!('0' <= c && c <= '9'))
+        throw new IllegalArgumentException("Decimal digits must be 0..9");
+      i++;
+    }
+    value = Integer.parseInt(s);
+    if (negative) value = -value;
+  }
+}
+```
+
 
 ### In Class Exercises
 
@@ -150,6 +251,29 @@ For each possible assignment of one of these five variables to another, say whet
 
 ##### Solution:
 
+Assignment | Possible | Reason
+---------- | -------- | ------
+c1 = c2    | Allowed | c2 is-a C1 through inheritance
+c1 = c3    | Disallowed |
+c1 = i1    | Allowed With Downcast |
+c1 = i2    | Disallowed |
+c2 = c1    | Allowed with Downcast | c1 can be downcast to a C2
+c2 = c3    | Disallowed |
+c2 = i1    | Allowed with Downcast | i1 can be cast to a C1 which can be downcast to a C2
+c2 = i2    | Allowed with Downcast |
+c3 = c1    | Disallowed |
+c3 = c2    | Disallowed |
+c3 = i1    | Allowed with Downcast | i1 can be downcast to a C3
+c3 = i2    | Disallowed |
+i1 = c1    | Allowed | c1 is-a I1
+i1 = c2    | Disallowed |
+i1 = c3    | Allowed | c3 is-a I1
+i1 = i2    | Allowed with Downcast | i2 can be downcast to a C2 which is-a I1 via inheritance from C1
+i2 = c1    | Allowed with Downcast | c1 can be downcast to C2 which is-a I2
+i2 = c2    | Allowed | c2 is-a I2
+i2 = c3    | Disallowed |
+i2 = i1    | Allowed with downcast | i1 can be downcast to C2 which is-a I2
+
 #### Exercise 2
 Suppose a derived class `C2` defines a method `m` of type `A2->B2` that overrides a method `m` of type `A1->B1`, inherited from the base class `C1`. Different languages have very different rules about how the types `A1` and `A2`, and `B1` and `B2`, must be related. Investigate and report on this aspect of inheritance, citing the sources you used. Answer the following questions:
 
@@ -160,3 +284,7 @@ Suppose a derived class `C2` defines a method `m` of type `A2->B2` that override
 #### Check Your Learning:
 
 ##### Solution:
+
+* In Java, A1 must be equal to A2 or a subtype thereof, this also applies to B2.
+* *Covariance* - In covariance a typing rule must preserve the order of types such that a type can be replaced by itself of a subtype. Java covariance type rules for both method overriding and array types.
+* *Contravariance* - In contravariance a typing rule must preserve the order of types such that a type can be replaced by itself or a supertype. C# uses contravariance in its generic type type parameters.

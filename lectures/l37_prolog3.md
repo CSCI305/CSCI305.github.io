@@ -19,6 +19,12 @@ Define the prediate `max(X, Y, Z)` that takes numbers `X` and `Y` and unifies `Z
 
 ##### Solution:
 
+```prolog
+max(X, Y, Z) :-
+  (X >= Y, Z is X, !);
+  Z is Y.
+```
+
 #### Exercise 2
 Define the predicate `subsetsum(L, Sum, SubL)` that takes a list `L` of numbers and a number `Sum` and unifies `SubL` with a subsequence of `L` such that the sum of the numbers in `SubL` is `Sum`. For example:
 
@@ -34,3 +40,21 @@ false.
 Your predicate should assume that `L` and `Sum` are instantiated, and should succeed once for each subsequence of `L` and adds up to `Sum`.
 
 ##### Solution:
+```prolog
+sum([],0).
+sum([Head | Rest], X) :-
+  sum(Rest,RestS),
+  X is Head + RestS.
+
+/* Borrowed From queens.pl */
+subseq([],[]).
+subseq([Item | RestX], [Item| RestY]) :-
+  subseq(RestX, RestY).
+subseq(X, [_| RestY]) :-
+  subseq(X, RestY).
+
+subsetsum(L, Sum, SubL) :-
+  subseq(SubL, L),
+  sum(SubL, Total),
+  Total =:= Sum.
+```
