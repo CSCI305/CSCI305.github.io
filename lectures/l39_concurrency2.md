@@ -3,11 +3,13 @@
 ### Concurrency
 
 ### Instructions
-1. Review the following Notes of Java Concurrency
+1. [Watch the Video](https://youtu.be/crx36iT9wVg) - (34:41)
+2. Review the following Notes of Java Concurrency
     - [Some Basics](https://courses.cs.ut.ee/MTAT.08.022/2016_spring/uploads/Main/notes.pdf)
-2. Work through this tutorial
+3. Work through this tutorial
     - [A Good Tutorial](http://www.vogella.com/tutorials/JavaConcurrency/article.html)
-3. Come to class and work on the In-class exercise
+4. Come to class and work on the In-class exercises
+5. [Example Code](https://github.com/CSCI305/csci305-java-examples/tree/master/src/main/java/concurrent)
 
 ### In Class Exercises
 
