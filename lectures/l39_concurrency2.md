@@ -18,8 +18,6 @@ Using your new found knowlege on Java Threading. Use the Fork-Join Framework to 
 
 #### Check Your Learning:
 
-##### [Solution Video]() - (:)
-
 ##### Solution:
 <!--
 ```java
@@ -130,6 +128,97 @@ public class MergeSortTask extends RecursiveTask<List<Integer>> {
                 k += 1;
             }
         }
+    }
+}
+```
+-->
+#### Exercise 2
+Implement a parallel approach to finding the average of a list containing 1 million `long` numbers. Using `System.nanoTime()` to calculate the amount of nanonseconds needed for the computation, use this to compare against a sequential approach using a for loop.
+
+#### Check Your Learning:
+
+##### Solution:
+<!--
+`SumTask.java`
+```java
+package average;
+
+import java.util.List;
+import java.util.concurrent.RecursiveTask;
+
+public class SumTask extends RecursiveTask<Long> {
+
+    private List<Long> array;
+    private static final int THRESHOLD = 2500;
+
+    public SumTask(List<Long> array) {
+        this.array = array;
+    }
+
+    @Override
+    protected Long compute() {
+        if (array.size() < THRESHOLD) {
+            long sum = 0;
+            for (long i : array) {
+                sum += i;
+            }
+
+            return sum;
+        }
+        else {
+            SumTask task1 = new SumTask(array.subList(0, array.size() / 2));
+            SumTask task2 = new SumTask(array.subList(array.size() / 2, array.size()));
+
+            task1.fork();
+            task2.fork();
+
+            long val1 = task1.join();
+            long val2 = task2.join();
+
+            long sum = val1 + val2;
+
+            return sum;
+        }
+    }
+}
+```
+
+`AverageCalc.java`
+```java
+package average;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.concurrent.ForkJoinPool;
+
+public class AverageCalc {
+
+    public static void main(String args[]) {
+        List<Long> list = new ArrayList<>();
+        Random rand = new Random();
+        for (int i = 0; i < 10000000; i++) {
+            list.add((long)rand.nextInt(500));
+        }
+
+        long start = System.nanoTime();
+        ForkJoinPool pool = new ForkJoinPool(50);
+        Long sum = pool.invoke(new SumTask(list));
+        double avg = (double) sum / 10000000;
+        System.out.println("Average: " + avg);
+        long end = System.nanoTime();
+        System.out.println("Time: " + (end - start));
+
+        start = System.nanoTime();
+        sum = 0L;
+        for (long l : list)
+            sum += l;
+        avg = (double) sum / 10000000;
+        System.out.println("Average: " + avg);
+        end = System.nanoTime();
+        System.out.println("Time: " + (end - start));
+
+
     }
 }
 ```
