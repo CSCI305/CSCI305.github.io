@@ -19,7 +19,6 @@ Using your new found knowlege on Java Threading. Use the Fork-Join Framework to 
 #### Check Your Learning:
 
 ##### Solution:
-<!--
 ```java
 package sort;
 
@@ -131,14 +130,13 @@ public class MergeSortTask extends RecursiveTask<List<Integer>> {
     }
 }
 ```
--->
+
 #### Exercise 2
 Implement a parallel approach to finding the average of a list containing 1 million `long` numbers. Using `System.nanoTime()` to calculate the amount of nanonseconds needed for the computation, use this to compare against a sequential approach using a for loop.
 
 #### Check Your Learning:
 
 ##### Solution:
-<!--
 `SumTask.java`
 ```java
 package average;
@@ -222,4 +220,3 @@ public class AverageCalc {
     }
 }
 ```
--->
