@@ -28,7 +28,7 @@
 <br /><br />
 * The element `A[i][j][k]`, where `0 ≤ i ≤ m`, `0 ≤ j < n`, and `0 ≤ k < p`, and where the array is allocated in column-major order.
 <br /><br />
-**`A[i][j][k] -> base + (i * (m + 1) * size) (j * (n + 1) * size) + (k * size)`**
+**`A[i][j][k] -> base + (j * (m + 1) * p * size) + (i * p * size) + (k * size)`**
 <br />
 
 #### Concurrency
