@@ -3,13 +3,13 @@
 <img src="images/red-blue-pill.jpg" />
 </div>
 
-<table width=100%>
+<table width="100%">
 <thead>
 <td><h3 style="color: blue">The Blue Pill</h3></td>
 <td align="right"><h3 style="color: red">The Red Pill</h3></td>
 </thead>
 <tr>
-<td width=50% valign="top">
+<td width="50%" valign="top">
 <ul>
 <li> Accept your as your exam grade the grade under <b>"Homework and Labs"</b>
 <li> Place your name and GID on your Notes
@@ -17,7 +17,7 @@
 <li> Go Home and study for any remaining finals.
 </ol>
 </td>
-<td width=50%>
+<td width="50%">
 <ul>
 <li> Accept the challenge of this exam
 <li> Select an exam from a <b style="color: red">red folder</b>
