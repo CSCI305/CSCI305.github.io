@@ -15,7 +15,7 @@
 <li> Place your name and GID on your Notes
 <li> Place your notes in the <b style="color: blue">blue folder</b>
 <li> Go Home and study for any remaining finals.
-</ol>
+</ul>
 </td>
 <td width="50%">
 <ul>
@@ -24,6 +24,7 @@
 <li> Return to your seat and see how far your knowledge and study will take you.
 <li> <b>When finished turn in your exam into the <i style="color: purple">purple folder</i>.</b>
 <li> Go Home knowing that the effort was worth it, and prepare for any remaining finals.
+
 </ul>
 </td>
 </tr>
