@@ -11,19 +11,19 @@
 <tr>
 <td width="50%" valign="top">
 <ul>
-<li> Accept your as your exam grade the grade under <b>"Homework and Labs"</b></li>
+<li> Accept as your exam grade the grade under <b>"Homework and Labs"</b></li>
 <li> Place your name and GID on your Notes</li>
-<li> Place your notes in the <b style="color: blue">blue folder</b></li>
+<li> Place your notes one of the <b style="color: blue">blue folders</b></li>
 <li> Go Home and study for any remaining finals.</li>
 </ul>
 </td>
 <td width="50%">
 <ul>
 <li> Accept the challenge of this exam</li>
-<li> Select an exam from a <b style="color: red">red folder</b></li>
+<li> Select an exam from one of the <b style="color: red">red folders</b></li>
 <li> Return to your seat and see how far your knowledge and study will take you.</li>
-<li> <b>When finished turn in your exam into the <i style="color: purple">purple folder</i>.</b></li>
-<li> Go Home knowing that the effort was worth it, and prepare for any remaining finals.</li>
+<li> <b>When finished place your completed exam one of the <i style="color: purple">purple folders</i>.</b></li>
+<li> Go Home and prepare for any remaining finals.</li>
 
 </ul>
 </td>
