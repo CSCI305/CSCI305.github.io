@@ -3,7 +3,7 @@
 <img src="images/red-blue-pill.jpg" />
 </div>
 
-<table border="0" width=100%>
+<table width=100%>
 <thead>
 <td><h3 style="color: blue">The Blue Pill</h3></td>
 <td align="right"><h3 style="color: red">The Red Pill</h3></td>
