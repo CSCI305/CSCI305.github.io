@@ -1,6 +1,6 @@
 <div align="center">
 <h1>You have two Choices</h1>
-<img src="images/red-blue-pill.jpg" height="75%" />
+<img src="images/red-blue-pill.jpg" width="75%" />
 </div>
 
 <table width="100%">
