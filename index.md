@@ -63,7 +63,7 @@ Mon. Apr. 23 | [Concurrency](lectures/l38_concurrency1.html) | &nbsp; | &nbsp;
 Wed. Apr. 25 | ![laptop](images/laptop.png) [Concurrency](lectures/l39_concurrency2.html) | &nbsp; | &nbsp;
 Fri. Apr. 27 | [Final Review](lectures/l40_finalrev.html) | &nbsp; | [Homework 6](homeworks/hw6.html)
 &nbsp; | **FINALS WEEK STARTS** | &nbsp; | &nbsp;
-**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab), **Final Exam (25%)**
+**Wed. May. 2** | **Final Exam 0800-0950** | &nbsp; | [Prolog Lab](https://github.com/CSCI305/csci305-prolog-lab), [**Final Exam (25%)**](lectures/finalexam.html)
 
 ---
 
