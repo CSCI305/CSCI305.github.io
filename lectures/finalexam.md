@@ -5,8 +5,8 @@
 
 <table width="100%" border="0">
 <thead>
-<td><h3 style="color: blue">The Blue Pill</h3></td>
-<td align="right"><h3 style="color: red">The Red Pill</h3></td>
+<td><h3 style="color: blue"><img src="images/BlueFolder32.png" />&nbsp;The Blue Pill</h3></td>
+<td align="right"><h3 style="color: red">The Red Pill&nbsp;<img src="images/new-folder32.png" /></h3></td>
 </thead>
 <tr>
 <td width="50%" valign="top">
